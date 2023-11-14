@@ -11,18 +11,18 @@ const Projects = ({ id }: { id: string }) => {
   return (
     <div id={id}>
       <h1 className="font-bold text-3xl my-8 text-center">React Projects</h1>
-      <div className="ml-10">
+      <div className="ml-8">
         <div className="flex flex-col md:flex-row mb-10">
           <Image
             src="/img/chewplushdemo.PNG"
-            width={300}
+            width={320}
             height={300}
             alt="Chew plush store demo image."
             className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10 rounded-md mb-2"
           />
           <div className="w-fit md:max-w-[50%]">
             <h2 className="font-bold text-xl mb-2">Chew Plush Store</h2>
-            <p className="mb-2">
+            <p className="mb-2 mr-1">
               Your one stop shop for any plushies you want. No, you cannot
               actually purchase any.
             </p>
@@ -49,14 +49,14 @@ const Projects = ({ id }: { id: string }) => {
         <div className="flex flex-col md:flex-row mb-10">
           <Image
             src="/img/currencyexchangedemo.PNG"
-            width={300}
+            width={320}
             height={300}
             alt="Currency exchange demo."
             className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10 rounded-md mb-2"
           />
           <div className="w-fit md:max-w-[50%]">
             <h2 className="font-bold text-xl mb-2">Exchange Global</h2>
-            <p className="mb-2">
+            <p className="mb-2 mr-1">
               Exchange Global is a sleek, fast way to look up rates for almost
               any currency, including crypto.
             </p>
@@ -83,14 +83,14 @@ const Projects = ({ id }: { id: string }) => {
         <div className="flex flex-col md:flex-row">
           <Image
             src="/img/todolistdemo.PNG"
-            width={300}
+            width={320}
             height={300}
             alt="To-do list demo."
             className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10 rounded-md mb-2"
           />
           <div className="w-fit md:max-w-[50%]">
             <h2 className="font-bold text-xl mb-2">Task Driver</h2>
-            <p className="mb-2">
+            <p className="mb-2 mr-1">
               Task driver is a compact to-do list that stays even when you leave
               the page.
             </p>
@@ -116,18 +116,18 @@ const Projects = ({ id }: { id: string }) => {
         </div>
       </div>
       <h1 className="font-bold text-3xl my-8 text-center">Other Projects</h1>
-      <div className="ml-10">
+      <div className="ml-8">
         <div className="flex flex-col md:flex-row mb-10">
           <Image
             src="/img/skincaredemo.PNG"
-            width={300}
+            width={320}
             height={300}
             alt="Marina's skincare demo image"
             className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10 rounded-md mb-2"
           />
           <div className="w-fit md:max-w-[50%]">
             <h2 className="font-bold text-xl mb-2">Marina&#39;s Skincare</h2>
-            <p className="mb-2">
+            <p className="mb-2 mr-1">
               Check out Marina&#39;s Skincare for all your skincare needs!
             </p>
             <div className="flex flex-row mb-2">
@@ -154,7 +154,7 @@ const Projects = ({ id }: { id: string }) => {
         <div className="flex flex-col md:flex-row mb-10">
           <Image
             src="/img/dogadoptiondemo.PNG"
-            width={300}
+            width={320}
             height={300}
             alt="Chew plush store demo image."
             className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10 rounded-md mb-2"
@@ -163,7 +163,7 @@ const Projects = ({ id }: { id: string }) => {
             <h2 className="font-bold text-xl mb-2">
               Bianca&#39;s Dog Adoption
             </h2>
-            <p className="mb-2">
+            <p className="mb-2 mr-1">
               Rescue one of these cute little pups today at Bianca&#39;s Dog
               Adoption Agency.
             </p>
