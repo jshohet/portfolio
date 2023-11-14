@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const Home = ({id} : {id:string}) => {
   return (
-    <div className="mb-80" id={id}>
-      <div className="flex flex-row justify-center items-center mt-32 ">
+    <div className="mb-52 md:mb-80" id={id}>
+      <div className="flex flex-col md:flex-row justify-center mx-2 items-center mt-10 md:mt-32 ">
         <Image
           src="/img/headshot.jpg"
           alt="Josef Shohet's face"
-          width={600}
-          height={600}
-          className="rounded-full"
+          width={580}
+          height={580}
+          className="rounded-full mb-2"
         />
         <p className="max-w-[400px] ml-5 text-lg">
           Hi, my name is{" "}
