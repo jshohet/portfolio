@@ -16,7 +16,7 @@ const Projects = ({ id }: { id: string }) => {
             width={300}
             height={300}
             alt="Chew plush store demo image."
-            className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10"
+            className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10 rounded-md"
           />
           <div className="max-w-[50%]">
             <h2 className="font-bold text-xl mb-2">Chew Plush Store</h2>
@@ -50,13 +50,13 @@ const Projects = ({ id }: { id: string }) => {
             width={300}
             height={300}
             alt="Currency exchange demo."
-            className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10"
+            className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10 rounded-md"
           />
           <div className="max-w-[50%]">
             <h2 className="font-bold text-xl mb-2">Exchange Global</h2>
             <p className="mb-2">
-              Exchange Global is a sleek, fast way to look up currency rates for
-              almost any currency, including crypto.
+              Exchange Global is a sleek, fast way to look up rates for almost
+              any currency, including crypto.
             </p>
             <div className="flex flex-row mb-2">
               <BiLogoTypescript size={30} className="text-cyan-400" />
@@ -84,7 +84,7 @@ const Projects = ({ id }: { id: string }) => {
             width={300}
             height={300}
             alt="To-do list demo."
-            className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10"
+            className="hover:transition-all hover:scale-125 hover:ease-in-out hover:duration-500 mr-10 rounded-md"
           />
           <div className="max-w-[50%]">
             <h2 className="font-bold text-xl mb-2">Task Driver</h2>

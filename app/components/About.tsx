@@ -7,7 +7,7 @@ const About = ({ id }: { id: string }) => {
       <div className="flex flex-row mt-10 justify-center">
         <div className="bg-slate-700 text-white rounded-lg mr-10 max-w-[30%] p-2">
           <p className="indent-5 my-1">
-            Hey, I&quot;m Josef Shohet, an aspiring front-end React developer
+            Hey, I&#39;m Josef Shohet, an aspiring front-end React developer
             with a fresh perspective and drive to accomplish anything. Despite a
             limited professional history, I bring determination, focus, and a
             keen eye for detail to the table. I believe that my background, as
@@ -15,7 +15,7 @@ const About = ({ id }: { id: string }) => {
             and professional goals.
           </p>
           <p className="indent-5 mt-2">
-            When I&quot;m not learning or coding, I enjoy playing video games,
+            When I&#39;m not learning or coding, I enjoy playing video games,
             reading, and working out. These all contribute in various ways to
             keep my mind engaged and inspired.
           </p>
