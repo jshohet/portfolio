@@ -4,6 +4,7 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Coursework from './components/Coursework'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Projects id="projects"/>
       <About id="about"/>
       <Coursework id="coursework"/>
+      <Contact id="contact" />
       <Footer />
     </main>
   );
