@@ -6,7 +6,7 @@ const Coursework = ({ id }: { id: string }) => {
       <h1 className="font-bold text-3xl my-8 text-center">Coursework</h1>
       <div className="flex flex-col items-center mb-8">
         <h2 className="font-bold text-xl mb-2">Notable Courses:</h2>
-        <ul>
+        <ul className="mx-1 sm:ml-0">
           <li>
             FreeCodeCamp React Course - <span className="italic">50 hours</span>
           </li>
