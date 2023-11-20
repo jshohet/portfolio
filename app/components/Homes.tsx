@@ -14,7 +14,7 @@ const Home = ({id} : {id:string}) => {
         />
         <p className="max-w-[400px] ml-5 text-lg">
           Hi, my name is{" "}
-          <span className="text-red-900 font-semibold">Josef Shohet</span>.
+          <span className="text-orange-700 dark:text-orange-300 font-semibold">Josef Shohet</span>.
           Aspiring front-end React developer. Thanks for stopping by! Feel free
           to look around.
         </p>
