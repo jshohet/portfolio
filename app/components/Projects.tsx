@@ -11,7 +11,7 @@ import { BsDiscord } from "react-icons/bs";
 
 const Projects = ({ id }: { id: string }) => {
   return (
-    <div id={id}>
+    <div id={id} className="scroll-mt-10">
       <h1 className="font-bold text-3xl my-8 text-center">Projects</h1>
       <div className="ml-8">
         <div className="flex flex-col md:flex-row mb-10">

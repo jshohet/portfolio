@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Contact = ({ id }: { id: string }) => {
   return (
-    <div id={id}>
+    <div id={id} className="scroll-mt-10">
       <h1 className="font-bold text-3xl my-8 text-center">Contact Info</h1>
       <div className="flex justify-center">
         <a

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Coursework = ({ id }: { id: string }) => {
   return (
-    <div id={id}>
+    <div id={id} className="scroll-mt-10">
       <h1 className="font-bold text-3xl my-8 text-center">Coursework</h1>
       <div className="flex flex-col items-center mb-8">
         <h2 className="font-bold text-xl mb-2">Notable Courses:</h2>

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = ({ id }: { id: string }) => {
   return (
-    <div className="mb-20 mt-10" id={id}>
+    <div className="mb-20 mt-10 scroll-mt-10" id={id}>
       <h1 className="font-bold text-3xl my-8 text-center">About</h1>
       <div className="flex flex-col lg:flex-row mt-10 justify-center">
         <div className="bg-slate-700 dark:bg-slate-600 text-white rounded-lg lg:mr-10 w-fit lg:max-w-[30%] p-2 lg:ml-0 mx-2">

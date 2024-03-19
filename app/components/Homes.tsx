@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Home = ({id} : {id:string}) => {
   return (
-    <div className="mb-52 md:mb-80" id={id}>
+    <div className="mb-52 md:mb-80 scroll-mt-10" id={id}>
       <div className="flex flex-col md:flex-row justify-center mx-2 items-center mt-10 md:mt-32 ">
         <Image
           src="/img/headshot.jpg"
