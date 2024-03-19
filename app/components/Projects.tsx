@@ -52,7 +52,7 @@ const Projects = ({ id }: { id: string }) => {
           <div className="w-fit md:max-w-[50%]">
             <h2 className="font-bold text-xl mb-2">Chou Bot</h2>
             <p className="mb-2 mr-1">
-              A discord bot with integrated with chatGPT to provide a sarcastic
+              A discord bot with integrated with ChatGPT to provide a sarcastic
               chatbot companion. Also comes with commands and a levelling system
               within the discord. Currently serving 20 people. Currently not
               available to try.
