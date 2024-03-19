@@ -14,7 +14,14 @@ export const metadata: Metadata = {
       "Josef Shohet Front-End React Portfolio. Showcase of projects and coursework.",
     url: "https://josef-shohet-portfolio.vercel.app/",
     siteName: "Josef Shohet Portfolio",
-    images: [{url: "/img/headshot.jpg", width:1800, height: 1600, alt: "Josef Shohet"}],
+    images: [
+      {
+        url: "https://i.imgur.com/9uBoPuN.jpeg",
+        width: 1800,
+        height: 1600,
+        alt: "Josef Shohet",
+      },
+    ],
   },
 };
 export const viewport = {
