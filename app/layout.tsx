@@ -5,9 +5,18 @@ import './globals.css'
 const poppins = Poppins({ weight: ["500"], subsets:["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Josef Shohet Portfolio',
-  description: 'Josef Shohet Front-End React Portfolio.',
-}
+  title: "Josef Shohet Portfolio",
+  description:
+    "Josef Shohet Front-End React Portfolio. Showcase of projects and coursework.",
+  openGraph: {
+    title: "Josef Shohet Portfolio",
+    description:
+      "Josef Shohet Front-End React Portfolio. Showcase of projects and coursework.",
+    url: "https://josef-shohet-portfolio.vercel.app/",
+    siteName: "Josef Shohet Portfolio",
+    images: [{url: "/img/headshot.jpg", width:1800, height: 1600, alt: "Josef Shohet"}],
+  },
+};
 export const viewport = {
   width: "device-width",
   initialScale: 1,

@@ -35,7 +35,7 @@ const Projects = ({ id }: { id: string }) => {
               <TbBrandNextjs size={30} className="text-black" />
             </div>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="flex flex-row mb-1 bg-slate-400 text-white w-fit rounded-md p-0.5">
               Coming soon!
             </a>
@@ -62,7 +62,7 @@ const Projects = ({ id }: { id: string }) => {
               <BsDiscord size={30} className="text-cyan-600" />
             </div>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="cursor-not-allowed flex flex-row mb-1 bg-slate-400/70 text-white/90 w-fit rounded-md p-0.5">
               Add this bot to your server (currently disabled)
               <FiArrowUpRight className="ml-1 mt-0.5 text-black" size={18} />
