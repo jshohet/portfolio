@@ -58,7 +58,7 @@ const Projects = ({ id }: { id: string }) => {
               available to try.
             </p>
             <div className="flex flex-row mb-2">
-              <FaNodeJs size={30} className="text-cyan-400" />
+              <FaNodeJs size={30} className="text-[#68a063]" />
               <BsDiscord size={30} className="text-cyan-600" />
             </div>
             <a
@@ -92,7 +92,7 @@ const Projects = ({ id }: { id: string }) => {
               simple but commissioned. Try it out!
             </p>
             <div className="flex flex-row mb-2">
-              <FaNodeJs size={30} className="text-cyan-400" />
+              <FaNodeJs size={30} className="text-[#68a063]" />
               <BsDiscord size={30} className="text-cyan-600" />
             </div>
             <a
