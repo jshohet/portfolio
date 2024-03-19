@@ -59,6 +59,15 @@ const About = ({ id }: { id: string }) => {
             <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
               Git
             </span>
+            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
+              Docker
+            </span>
+            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
+              Redux
+            </span>
+            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
+              Redux
+            </span>
           </div>
         </section>
       </div>

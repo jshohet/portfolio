@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaPhoneVolume } from "react-icons/fa";
 import { IoMdMailOpen } from "react-icons/io";
-
+import { FaGithub } from "react-icons/fa6";
 
 const Contact = ({ id }: { id: string }) => {
   return (
@@ -9,10 +9,19 @@ const Contact = ({ id }: { id: string }) => {
       <h1 className="font-bold text-3xl my-8 text-center">Contact Info</h1>
       <div className="flex justify-center">
         <a
+          href="https://github.com/jshohet"
+          target="_blank"
+          className="flex flex-row items-center cursor-pointer">
+          <FaGithub size={30} className="text-black mr-1" />
+          <h2 className="">Github Profile</h2>
+        </a>
+      </div>
+      <div className="flex justify-center">
+        <a
           href="mailto: joe.shohet@gmail.com?subject=Email from Portfolio"
           target="_blank"
           className="flex flex-row items-center cursor-pointer">
-          <IoMdMailOpen size={30} className="text-cyan-400 mr-1" />
+          <IoMdMailOpen size={30} className="text-cyan-300 mr-1" />
           <h2 className="">Email me</h2>
         </a>
       </div>

@@ -33,13 +33,13 @@ const Coursework = ({ id }: { id: string }) => {
           <li>Bootstrap</li>
           <li>Next.js</li>
           <li>TypeScript</li>
+          <li>Redux</li>
+          <li>Discord.js</li>
         </ul>
         <h3 className="font-bold text-lg my-2">Currently exploring: </h3>
         <ul className="text-center">
-          <li>React animations</li>
-          <li>Redux in React/Next.js</li>
+          <li>React Native</li>
           <li>SQL</li>
-          <li>Node.js</li>
         </ul>
       </div>
     </div>
