@@ -66,7 +66,7 @@ const About = ({ id }: { id: string }) => {
               Redux
             </span>
             <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              Redux
+              Discord.js
             </span>
           </div>
         </section>
