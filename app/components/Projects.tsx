@@ -55,7 +55,7 @@ const Projects = ({ id }: { id: string }) => {
               A discord bot with integrated with ChatGPT to provide a sarcastic
               chatbot companion. Also comes with commands and a levelling system
               within the discord. Currently serving 20 people. Currently not
-              available to try.
+              available to try. Hosted with AWS using a Docker container.
             </p>
             <div className="flex flex-row mb-2">
               <FaNodeJs size={30} className="text-[#68a063]" />
@@ -89,7 +89,8 @@ const Projects = ({ id }: { id: string }) => {
             <p className="mb-2 mr-1">
               A Zhongli role-playing bot for discord. Requires a #zhongli
               channel in your discord for message responses with quotes. Fairly
-              simple but commissioned. Try it out!
+              simple but commissioned. Try it out! Hosted with AWS using a
+              Docker container.
             </p>
             <div className="flex flex-row mb-2">
               <FaNodeJs size={30} className="text-[#68a063]" />
