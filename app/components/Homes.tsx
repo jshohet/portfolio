@@ -5,7 +5,7 @@ import { RiDownload2Fill } from "react-icons/ri";
 const Home = ({ id }: { id: string }) => {
   return (
     <div className="mb-52 md:mb-80 scroll-mt-10" id={id}>
-      <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#999] to-transparent">
+      <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent">
         <div className="flex justify-center ml-8 md:ml-10 text-[44px] md:text-5xl select-none">
           <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
@@ -106,10 +106,10 @@ const Home = ({ id }: { id: string }) => {
           height={580}
           className="rounded-full mb-4"
         />
-        <div className="ml-5 border-2 rounded-md border-solid border-black">
+        <div className="ml-5 border-2 rounded-[.65rem] border-solid border-black hover:border-orange-500">
           <a
             href="/JosefShohetResume.pdf"
-            className="flex mt-2 text-xl px-2 pb-1.5"
+            className="flex pt-2 text-xl px-2 pb-1.5 hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300"
             download={"/JosefShohetResume.pdf"}>
             Download CV <RiDownload2Fill className="ml-2" size={25} />
           </a>

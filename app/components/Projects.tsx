@@ -34,11 +34,15 @@ const Projects = ({ id, projects }: IProjectsProps) => {
   
   return (
     <div id={id} className="scroll-mt-10">
-      <h1 className="font-bold text-3xl my-8 text-center">Projects</h1>
+      <h1 className="font-bold text-3xl my-8 flex justify-center projecttitle">
+        Projects
+      </h1>
       <div className="ml-8 grid grid-cols-1 xl:grid-cols-[45%_auto]">
         {projects &&
           projects.map((project, idx) => (
-            <div key={idx} className="flex flex-col items-center md:flex-row md:justify-center mb-10">
+            <div
+              key={idx}
+              className="flex flex-col items-center md:items-start md:flex-row md:justify-center mb-10">
               <Image
                 src={`${project.demoPicSrc}`}
                 width={320}
@@ -90,7 +94,7 @@ const Projects = ({ id, projects }: IProjectsProps) => {
                 )}
               </div>
             </div>
-          ))}        
+          ))}
       </div>
       {/* <h1 className="font-bold text-3xl my-8 text-center">
         Simple JS/JQuery Projects
