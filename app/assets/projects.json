@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Raider's Digest",
+    "description": "A soon-to-be website with various resources for Final Fantasy XIV players that want to explore Ultimate content. Collaborative effort with several teammates. Built using Nextjs.",
+    "demoPicSrc": "/img/raidersdigestdemo.png",
+    "demoPicAlt": "Raider's Digest demo picture.",
+    "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
+    "demoURL": "#",
+    "demoURLText": "Coming soon!"
+  },
+  {
+    "name": "Chou Bot",
+    "description": " A discord bot with integrated with ChatGPT to provide a sarcastic chatbot companion. Also comes with commands and a levelling system within the discord. Currently serving 20 people. Currently not available to try. Hosted with AWS using a Docker container.",
+    "demoPicSrc": "/img/choubot.png",
+    "demoPicAlt": "Choubot face picture.",
+    "frameworks": ["FaNodeJs", "BsDiscord"],
+    "githubURL": "https://github.com/jshohet/discord-bot",
+    "githubLinkText": "Source code on github",
+    "demoURL": "#",
+    "demoURLText": "Add this bot to your server (currently disabled)"
+  },
+  {
+    "name": "Zhongli Bot",
+    "description": "A Zhongli role-playing bot for discord. Requires a #zhongli channel in your discord for message responses with quotes. Fairly simple but commissioned. Hosted with AWS using a Docker container. Try it out!",
+    "demoPicSrc": "/img/zhonglibot.png",
+    "demoPicAlt": "Zhongli bot face picture.",
+    "frameworks": ["FaNodeJs", "BsDiscord"],
+    "githubURL": "https://github.com/jshohet/zhongli",
+    "githubLinkText": "Source code on github",
+    "demoURL": "https://discord.com/oauth2/authorize?client_id=1218259970559184916&permissions=139586717760&scope=bot+applications.commands",
+    "demoURLText": "Add this bot to your server"
+  },
+  {
+    "name": "Chew Plush Store",
+    "description": "Your one stop shop for any plushies you want. No, you cannot actually purchase any. Manages checkout state between pages using React's built-in Context API.",
+    "demoPicSrc": "/img/chewplushdemo.PNG",
+    "demoPicAlt": "Chew plush store demo image.",
+    "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
+    "githubURL": "https://github.com/jshohet/plush-store",
+    "githubLinkText": "Source code on github",
+    "demoURL": "https://chew-plush-store.vercel.app/",
+    "demoURLText": "Try out this site"
+  },
+  {
+    "name": "Exchange Global",
+    "description": "Exchange Global is a sleek, fast way to look up rates for almost any currency, including crypto. Recently added pagination, repaired the search function, and changed the API endpoint as the old one was deprecated.",
+    "demoPicSrc": "/img/currencyexchangedemo.PNG",
+    "demoPicAlt": "Currency exchange demo.",
+    "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
+    "githubURL": "https://github.com/jshohet/currency-app",
+    "githubLinkText": "Source code on github",
+    "demoURL": "https://josef-currency-exchange.vercel.app/",
+    "demoURLText": "Try out this site!"
+  },
+  {
+    "name": "Task Driver",
+    "description": "Task driver is a compact to-do list that stays even when you leave the page. Recently added categories, a Redux store for state perpetuation, responsive UX with toasts, and slightly improved styling.",
+    "demoPicSrc": "/img/todolistdemo.PNG",
+    "demoPicAlt": "To-do list demo.",
+    "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
+    "githubURL": "https://github.com/jshohet/todo-list",
+    "githubLinkText": "Source code on github",
+    "demoURL": "https://josef-todo-list.vercel.app/",
+    "demoURLText": "Try out this site!"
+  }
+]

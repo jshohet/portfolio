@@ -1,25 +1,45 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex flex-row justify-evenly shadow-lg h-24 text-sm sm:text-lg items-center">
-      <a href="#home">
-        <h2>Home</h2>
-      </a>
-      <a href="#projects">
-        <h2>Projects</h2>
-      </a>
-      <a href="#about">
-        <h2>About</h2>
-      </a>
-      <a href="#coursework">
-        <h2>Coursework</h2>
-      </a>
-      <a href="#contact">
-        <h2>Contact</h2>
-      </a>
-    </div>
+    <nav className="flex bg-[#0c0d2e]  list-none uppercase font-semibold text-[rgba(255,255,255,.7)] flex-row justify-evenly shadow-lg h-24 text-sm sm:text-lg items-center">
+      <li className="">
+        <a
+          href="#home"
+          className="navLink">
+          <h2>Home</h2>
+        </a>
+      </li>
+      <li className="">
+        <a
+          href="#projects"
+          className="navLink">
+          <h2>Projects</h2>
+        </a>
+      </li>
+      <li className="">
+        <a
+          href="#about"
+          className="navLink">
+          <h2>About</h2>
+        </a>
+      </li>
+      <li className="">
+        <a
+          href="#coursework"
+          className="navLink">
+          <h2>Coursework</h2>
+        </a>
+      </li>
+      <li className="">
+        <a
+          href="#contact"
+          className="navLink">
+          <h2>Contact</h2>
+        </a>
+      </li>
+    </nav>
   );
-}
+};
 
-export default Header
+export default Header;

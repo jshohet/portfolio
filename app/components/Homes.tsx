@@ -1,23 +1,119 @@
 import React from "react";
 import Image from "next/image";
+import { RiDownload2Fill } from "react-icons/ri";
 
-const Home = ({id} : {id:string}) => {
+const Home = ({ id }: { id: string }) => {
   return (
     <div className="mb-52 md:mb-80 scroll-mt-10" id={id}>
-      <div className="flex flex-col md:flex-row justify-center mx-2 items-center mt-10 md:mt-32 ">
+      <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#999] to-transparent">
+        <div className="flex justify-center ml-8 md:ml-10 text-[44px] md:text-5xl select-none">
+          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              J
+            </div>
+            <div className="bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252] transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in-out duration-200  group-hover:translate-y-[10%]">
+              J
+            </div>
+          </div>
+          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              O
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200 bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              O
+            </div>
+          </div>
+          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              S
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              S
+            </div>
+          </div>
+          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              E
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              E
+            </div>
+          </div>
+          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              F
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              F
+            </div>
+          </div>
+          &nbsp;
+          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              S
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              S
+            </div>
+          </div>
+          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              H
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              H
+            </div>
+          </div>
+          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              O
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              O
+            </div>
+          </div>
+          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              H
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              H
+            </div>
+          </div>
+          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              E
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              E
+            </div>
+          </div>
+          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+            <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
+              T
+            </div>
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+              T
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col justify-center mx-2 items-center mt-52 md:mt-60 ">
         <Image
           src="/img/headshot.jpg"
           alt="Josef Shohet's face"
           width={580}
           height={580}
-          className="rounded-full mb-2"
+          className="rounded-full mb-4"
         />
-        <p className="max-w-[400px] ml-5 text-lg">
-          Hi, my name is{" "}
-          <span className="text-orange-700 dark:text-orange-300 font-semibold">Josef Shohet</span>.
-          Aspiring front-end React developer. Thanks for stopping by! Feel free
-          to look around.
-        </p>
+        <div className="ml-5 border-2 rounded-md border-solid border-black">
+          <a
+            href="/JosefShohetResume.pdf"
+            className="flex mt-2 text-xl px-2 pb-1.5"
+            download={"/JosefShohetResume.pdf"}>
+            Download CV <RiDownload2Fill className="ml-2" size={25} />
+          </a>
+        </div>
       </div>
     </div>
   );

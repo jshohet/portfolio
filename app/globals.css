@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .navLink {
+    @apply relative after:absolute hover:text-white
+          after:-bottom-3 after:-left-3 after:h-1.5 after:opacity-50 after:w-full
+            after:bg-orange-300 after:content-[''] hover:after:opacity-100 hover:after:transition-all hover:after:transform hover:after:-translate-y-[50%] hover:after:translate-x-3 hover:after:duration-300 hover:after:ease-in-out;
+  }
+}

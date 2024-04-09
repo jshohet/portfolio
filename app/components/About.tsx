@@ -1,4 +1,5 @@
 import React from "react";
+import skills from "../assets/skills.json";
 
 const About = ({ id }: { id: string }) => {
   return (
@@ -23,54 +24,13 @@ const About = ({ id }: { id: string }) => {
         <section className="lg:max-w-[40%] flex flex-col lg:mx-0 mx-1">
           <h3 className="font-bold text-lg my-2 text-center">Skills: </h3>
           <div className="flex flex-wrap">
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              HTML
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              CSS
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              Javascript
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              TypeScript
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              jQuery
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              TailwindCSS
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              Bootstrap
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              React
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              Next.js
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              C#
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              SQL
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              Git
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              Docker
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              Redux
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              Discord.js
-            </span>
-            <span className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
-              AWS
-            </span>
+            {skills.map((skill, i) => (
+              <span
+                key={i}
+                className="bg-slate-400 dark:text-slate-800 rounded-lg mx-0.5 px-1 h-fit mb-1">
+                {skill}
+              </span>
+            ))}
           </div>
         </section>
       </div>

@@ -5,6 +5,7 @@ import About from './components/About'
 import Coursework from './components/Coursework'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import projects from './assets/projects.json';
 
 
 
@@ -13,7 +14,7 @@ export default function Home() {
     <main>
       <Header />
       <Homes id="home"/>      
-      <Projects id="projects"/>
+      <Projects id="projects" projects={projects}/>
       <About id="about"/>
       <Coursework id="coursework"/>
       <Contact id="contact" />

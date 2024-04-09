@@ -5,6 +5,7 @@ import './globals.css'
 const poppins = Poppins({ weight: ["500"], subsets:["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://josef-shohet-portfolio.vercel.app/'),
   title: "Josef Shohet Portfolio",
   description:
     "Josef Shohet Front-End React Portfolio. Showcase of projects and coursework.",
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
     ],
   },
 };
+
 export const viewport = {
   width: "device-width",
   initialScale: 1,

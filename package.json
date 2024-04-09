@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "is-url": "^1.2.4",
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
+    "@types/is-url": "^1.2.32",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
