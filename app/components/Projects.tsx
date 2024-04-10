@@ -83,7 +83,7 @@ const Projects = ({ id, projects }: IProjectsProps) => {
                     isUrl(project.demoURL)
                       ? " cursor-pointer bg-[#0c0d2e] text-orange-300 dark:text-white/80 hover:underline"
                       : " cursor-not-allowed bg-[#0c0d2e]/70 dark:text-white/80 text-orange-300/90"
-                  } flex flex-row mb-1  w-fit rounded-md py-0.5 px-1 mr-1`}>
+                  } flex flex-row mb-1  w-fit rounded-md py-0.5 px-1 mr-4`}>
                   {project.demoURLText}
                   <FiArrowUpRight
                     className="ml-1 mt-0.5 text-orange-300"
