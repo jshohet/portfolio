@@ -4,8 +4,6 @@ import { FiArrowUpRight } from "react-icons/fi/";
 import { BsGithub } from "react-icons/bs/";
 import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiJavascript, SiCss3, SiHtml5 } from "react-icons/si";
-import { DiJqueryUiLogo } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
 import isUrl from "is-url";
@@ -31,10 +29,9 @@ interface IProjectsProps {
 }
 
 const Projects = ({ id, projects }: IProjectsProps) => {
-  
   return (
     <div id={id} className="scroll-mt-10">
-      <h1 className="font-bold text-3xl my-8 flex justify-center projecttitle">
+      <h1 className="font-bold text-3xl my-8 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
         Projects
       </h1>
       <div className="ml-8 grid grid-cols-1 xl:grid-cols-[45%_auto]">
@@ -51,45 +48,55 @@ const Projects = ({ id, projects }: IProjectsProps) => {
                 className="hover:transition-all hover:scale-110 hover:ease-in-out hover:duration-500 mr-10 rounded-md mb-2"
               />
               <div className="w-fit md:max-w-[50%]">
-                <h2 className="font-bold text-xl mb-2">{project.name}</h2>
-                <p className="mb-2 mr-1">{project.description}</p>
+                <h2 className="font-bold text-xl mb-2 projects mt-1 sm:mt-0 text-[#0c0d2e] dark:text-orange-400">
+                  {project.name}
+                </h2>
+                <p className="mb-2 mr-1 text-black/80 dark:text-white/80">
+                  {project.description}
+                </p>
                 <div className="flex flex-row mb-2">
                   {project.frameworks.includes("BiLogoTypescript") && (
-                    <BiLogoTypescript size={30} className="text-cyan-400" />
+                    <BiLogoTypescript
+                      size={30}
+                      className="text-cyan-400 ml-1"
+                    />
                   )}
                   {project.frameworks.includes("BiLogoTailwindCss") && (
-                    <BiLogoTailwindCss size={30} className="text-cyan-600" />
+                    <BiLogoTailwindCss
+                      size={30}
+                      className="text-cyan-600 ml-1"
+                    />
                   )}
                   {project.frameworks.includes("TbBrandNextjs") && (
-                    <TbBrandNextjs size={30} className="text-black" />
+                    <TbBrandNextjs size={30} className="text-black ml-1" />
                   )}
                   {project.frameworks.includes("FaNodeJs") && (
-                    <FaNodeJs size={30} className="text-[#68a063]" />
+                    <FaNodeJs size={30} className="text-[#68a063] ml-1" />
                   )}
                   {project.frameworks.includes("BsDiscord") && (
-                    <BsDiscord size={30} className="text-cyan-600" />
+                    <BsDiscord size={30} className="text-cyan-600 ml-1" />
                   )}
                 </div>
                 <a
                   href={project.demoURL}
                   className={`${
                     isUrl(project.demoURL)
-                      ? " cursor-pointer bg-slate-400 text-white"
-                      : " cursor-not-allowed bg-slate-400/70 text-white/90"
-                  } flex flex-row mb-1  w-fit rounded-md p-0.5`}>
+                      ? " cursor-pointer bg-[#0c0d2e] text-orange-300 dark:text-white/80 hover:underline"
+                      : " cursor-not-allowed bg-[#0c0d2e]/70 dark:text-white/80 text-orange-300/90"
+                  } flex flex-row mb-1  w-fit rounded-md py-0.5 px-1 mr-1`}>
                   {project.demoURLText}
                   <FiArrowUpRight
-                    className="ml-1 mt-0.5 text-black"
+                    className="ml-1 mt-0.5 text-orange-300"
                     size={18}
                   />
                 </a>
                 {project.githubLinkText && (
                   <a
                     href={project.githubURL}
-                    className="cursor-pointer flex flex-row mb-1 bg-slate-400 text-white w-fit rounded-md p-0.5"
+                    className="cursor-pointer flex flex-row mb-1 hover:underline dark:text-white/80 bg-[#0c0d2e] text-orange-300 w-fit rounded-md py-0.5 px-1"
                     target="_blank">
                     {project.githubLinkText}
-                    <BsGithub className="ml-1 mt-0.5 text-black" />
+                    <BsGithub className="ml-1 mt-0.5 text-orange-300" />
                   </a>
                 )}
               </div>

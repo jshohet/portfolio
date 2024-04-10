@@ -1,0 +1,19 @@
+[
+  {
+    "course": "FreeCodeCamp React Course",
+    "hours": "50 hours"
+  },
+  {
+    "course": "Tim Corey C# Master Course",
+    "hours": "200 hours"
+  },
+  {
+    "course": "Tim Corey Web Dev Master Course",
+    "hours": "100 hours"
+  },
+  {
+    "course": "Tim Corey Youtube Project Compilations",
+    "hours": "150 hours"
+  }
+  
+]

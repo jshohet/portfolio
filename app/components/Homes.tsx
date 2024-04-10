@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import { RiDownload2Fill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 const Home = ({ id }: { id: string }) => {
   return (
     <div className="mb-52 md:mb-80 scroll-mt-10" id={id}>
-      <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent">
-        <div className="flex justify-center ml-8 md:ml-10 text-[44px] md:text-5xl select-none">
-          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+      <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent dark:from-[#2e3c4f] dark:via-[#2e3c4f]">
+        <div className="flex justify-center ml-2 text-[30px] sm:text-4xl md:text-6xl mt-10 select-none">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               J
             </div>
@@ -15,7 +17,7 @@ const Home = ({ id }: { id: string }) => {
               J
             </div>
           </div>
-          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               O
             </div>
@@ -23,7 +25,7 @@ const Home = ({ id }: { id: string }) => {
               O
             </div>
           </div>
-          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               S
             </div>
@@ -31,7 +33,7 @@ const Home = ({ id }: { id: string }) => {
               S
             </div>
           </div>
-          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               E
             </div>
@@ -39,7 +41,7 @@ const Home = ({ id }: { id: string }) => {
               E
             </div>
           </div>
-          <div className="px-2 md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               F
             </div>
@@ -48,7 +50,7 @@ const Home = ({ id }: { id: string }) => {
             </div>
           </div>
           &nbsp;
-          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               S
             </div>
@@ -56,7 +58,7 @@ const Home = ({ id }: { id: string }) => {
               S
             </div>
           </div>
-          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               H
             </div>
@@ -64,7 +66,7 @@ const Home = ({ id }: { id: string }) => {
               H
             </div>
           </div>
-          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               O
             </div>
@@ -72,7 +74,7 @@ const Home = ({ id }: { id: string }) => {
               O
             </div>
           </div>
-          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               H
             </div>
@@ -80,7 +82,7 @@ const Home = ({ id }: { id: string }) => {
               H
             </div>
           </div>
-          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               E
             </div>
@@ -88,7 +90,7 @@ const Home = ({ id }: { id: string }) => {
               E
             </div>
           </div>
-          <div className="px-2  md:px-[2%] flex flex-col py-20 transition-none transform group">
+          <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               T
             </div>
@@ -97,7 +99,13 @@ const Home = ({ id }: { id: string }) => {
             </div>
           </div>
         </div>
+        <div>
+          <h2 className="text-black/80 dark:text-white/80 font-semibold text-center text-md sm:text-lg select-none">
+            Front-End Developer
+          </h2>
+        </div>
       </div>
+
       <div className="flex flex-col justify-center mx-2 items-center mt-52 md:mt-60 ">
         <Image
           src="/img/headshot.jpg"
@@ -106,12 +114,38 @@ const Home = ({ id }: { id: string }) => {
           height={580}
           className="rounded-full mb-4"
         />
-        <div className="ml-5 border-2 rounded-[.65rem] border-solid border-black hover:border-orange-500">
+        <div className="ml-5 border-2 rounded-[.65rem]  border-solid dark:bg-white/80 border-black/80 hover:border-orange-500">
           <a
             href="/JosefShohetResume.pdf"
-            className="flex pt-2 text-xl px-2 pb-1.5 hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300"
+            className="flex pt-2 text-black/80 text-xl px-1.5 pb-2 sm-1.5  hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300"
             download={"/JosefShohetResume.pdf"}>
             Download CV <RiDownload2Fill className="ml-2" size={25} />
+          </a>
+        </div>
+        <div className="flex justify-center mt-2">
+          <a
+            href="https://github.com/jshohet"
+            target="_blank"
+            className="flex flex-row items-center cursor-pointer group mr-2">
+            <FaGithub
+              size={30}
+              className="text-black  mr-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[310deg]"
+            />
+            <h2 className="hidden group-hover:inline-block text-black/80">
+              Github Profile
+            </h2>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/josef-shohet"
+            className="flex flex-row items-center cursor-pointer group"
+            target="_blank">
+            <FaLinkedin
+              size={30}
+              className="text-cyan-500 mr-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[310deg]"
+            />
+            <h2 className="hidden group-hover:inline-block text-black/80">
+              LinkedIn
+            </h2>
           </a>
         </div>
       </div>
