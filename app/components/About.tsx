@@ -39,7 +39,7 @@ const About = ({ id, courseworks, currentlyExploring, skills }: IAboutProps) => 
             <h3 className="font-bold text-lg mb-2 flex justify-center dark:text-orange- text-[#0c0d2e] dark:text-orange-300">
               Skills:{" "}
             </h3>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
               {skills.map((skill, i) => (
                 <span
                   key={i}
