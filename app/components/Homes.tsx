@@ -49,7 +49,7 @@ const Home = ({ id }: { id: string }) => {
               F
             </div>
           </div>
-          &nbsp;
+          &nbsp; &nbsp; 
           <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               S

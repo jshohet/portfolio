@@ -67,7 +67,7 @@ const About = ({ id, courseworks, currentlyExploring, skills }: IAboutProps) => 
             <h3 className="font-bold text-lg my-2 flex justify-center text-[#0c0d2e] dark:text-orange-300">
               Coursework:{" "}
             </h3>
-            <div className="flex flex-wrap justify-center ml-2 dark:text-white/80">
+            <div className="flex flex-col flex-wrap items-center ml-2 dark:text-white/80">
               {courseworks.map((course, idx) => (
                 <div key={idx}>
                   {course.course} -{" "}
