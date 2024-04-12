@@ -1,7 +1,7 @@
 [
   {
     "name": "Raider's Digest",
-    "description": "A soon-to-be website with various resources for Final Fantasy XIV players that want to explore Ultimate content. Collaborative effort with several teammates. Built using Nextjs.",
+    "description": "A soon-to-be website with various resources for Final Fantasy XIV players that want to explore Ultimate content. Collaborative effort with several teammates, including a UX designer, another developer, and a content creator. Built using Nextjs.",
     "demoPicSrc": "/img/raidersdigestdemo.png",
     "demoPicAlt": "Raider's Digest demo picture.",
     "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
