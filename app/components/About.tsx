@@ -15,7 +15,7 @@ interface IAboutProps {
 const About = ({ id, courseworks, currentlyExploring, skills }: IAboutProps) => {
   return (
     <div className="mb-20 mt-10 scroll-mt-10" id={id}>
-      <h1 className="font-bold text-3xl my-8 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
+      <h1 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
         About
       </h1>
       <div className="flex flex-col lg:flex-row mt-10 mx-6 justify-center">
