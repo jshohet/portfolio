@@ -6,14 +6,14 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Home = ({ id }: { id: string }) => {
   return (
-    <div className="mb-52 md:mb-80 scroll-mt-10" id={id}>
+    <div className="mb-20 scroll-mt-10" id={id}>
       <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent dark:from-[#2e3c4f] dark:via-[#2e3c4f]">
         <div className="flex justify-center ml-2 text-[30px] sm:text-4xl md:text-6xl mt-10 select-none">
           <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               J
             </div>
-            <div className="bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252] transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in-out duration-200  group-hover:translate-y-[10%]">
+            <div className="bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa] transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in-out duration-200  group-hover:translate-y-[10%]">
               J
             </div>
           </div>
@@ -21,7 +21,7 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               O
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200 bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200 bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               O
             </div>
           </div>
@@ -29,7 +29,7 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               S
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               S
             </div>
           </div>
@@ -37,7 +37,7 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               E
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               E
             </div>
           </div>
@@ -45,16 +45,16 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               F
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               F
             </div>
           </div>
-          &nbsp; &nbsp; 
+          &nbsp; &nbsp;
           <div className="px-1 sm:px-[2%] flex flex-col transition-none transform group">
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               S
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               S
             </div>
           </div>
@@ -62,7 +62,7 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               H
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               H
             </div>
           </div>
@@ -70,7 +70,7 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               O
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               O
             </div>
           </div>
@@ -78,7 +78,7 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               H
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               H
             </div>
           </div>
@@ -86,7 +86,7 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               E
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               E
             </div>
           </div>
@@ -94,13 +94,13 @@ const Home = ({ id }: { id: string }) => {
             <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%]">
               T
             </div>
-            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#555252]  group-hover:translate-y-[10%]">
+            <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
               T
             </div>
           </div>
         </div>
         <div>
-          <h2 className="text-black/80 dark:text-white/80 font-semibold text-center text-md sm:text-lg select-none">
+          <h2 className="text-black/80 dark:text-white/80 font-semibold text-center text-lg sm:text-xl mt-2 select-none">
             Front-End Developer
           </h2>
         </div>
@@ -129,7 +129,7 @@ const Home = ({ id }: { id: string }) => {
             className="flex flex-row items-center cursor-pointer group mr-2">
             <FaGithub
               size={30}
-              className="text-black  mr-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[310deg]"
+              className="text-black  mr-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[315deg]"
             />
             <h2 className="hidden group-hover:inline-block text-black/80">
               Github Profile
@@ -139,13 +139,13 @@ const Home = ({ id }: { id: string }) => {
             href="https://www.linkedin.com/in/josef-shohet"
             className="flex flex-row items-center cursor-pointer group"
             target="_blank">
-            <FaLinkedin
-              size={30}
-              className="text-cyan-500 mr-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[310deg]"
-            />
             <h2 className="hidden group-hover:inline-block text-black/80">
               LinkedIn
             </h2>
+            <FaLinkedin
+              size={30}
+              className="text-cyan-500 ml-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[405deg]"
+            />
           </a>
         </div>
       </div>

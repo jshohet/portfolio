@@ -10,7 +10,7 @@
   },
   {
     "name": "Chou Bot",
-    "description": " A discord bot with integrated with ChatGPT to provide a sarcastic chatbot companion. Also comes with commands and a levelling system within the discord. Currently serving 20 people. Currently not available to try. Hosted with AWS using a Docker container.",
+    "description": " A Discord bot integrated with ChatGPT to provide a sarcastic chatbot companion. Also comes with commands and a levelling system within the server. Currently serving 20 people. Not available to try. Hosted with AWS using a Docker container.",
     "demoPicSrc": "/img/choubot.png",
     "demoPicAlt": "Choubot face picture.",
     "frameworks": ["FaNodeJs", "BsDiscord"],
@@ -21,7 +21,7 @@
   },
   {
     "name": "Zhongli Bot",
-    "description": "A Zhongli role-playing bot for discord. Requires a #zhongli channel in your discord for message responses with quotes. Fairly simple but commissioned. Hosted with AWS using a Docker container. Try it out!",
+    "description": "A Zhongli role-playing bot for Discord. Requires a #zhongli channel in your server for message responses with quotes. Fairly simple but commissioned. Hosted with AWS using a Docker container. Try it out!",
     "demoPicSrc": "/img/zhonglibot.png",
     "demoPicAlt": "Zhongli bot face picture.",
     "frameworks": ["FaNodeJs", "BsDiscord"],

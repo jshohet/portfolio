@@ -31,7 +31,7 @@ interface IProjectsProps {
 const Projects = ({ id, projects }: IProjectsProps) => {
   return (
     <div id={id} className="scroll-mt-10">
-      <h1 className="font-bold text-3xl my-8 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
+      <h1 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
         Projects
       </h1>
       <div className="ml-8 grid grid-cols-1 xl:grid-cols-[45%_auto]">
@@ -42,13 +42,13 @@ const Projects = ({ id, projects }: IProjectsProps) => {
               className="flex flex-col items-center md:items-start md:flex-row md:justify-center mb-10">
               <Image
                 src={`${project.demoPicSrc}`}
-                width={320}
-                height={300}
+                width={280}
+                height={285}
                 alt={project.demoPicAlt}
                 className="hover:transition-all hover:scale-110 hover:ease-in-out hover:duration-500 mr-10 rounded-md mb-2"
               />
               <div className="w-fit md:max-w-[50%]">
-                <h2 className="font-bold text-xl mb-2 projects mt-1 sm:mt-0 text-[#0c0d2e] dark:text-orange-400">
+                <h2 className="font-bold text-xl mb-4 projects mt-1 sm:mt-0 text-[#0c0d2e] dark:text-orange-400">
                   {project.name}
                 </h2>
                 <p className="mb-2 mr-1 text-black/80 dark:text-white/80">

@@ -13,7 +13,7 @@ const Contact = ({ id }: { id: string }) => {
       <div className="mx-8 bg-white shadow-lg rounded-md">
         <div className="flex flex-wrap justify-center mb-6">
           <div className="w-full px-3 mb-5">
-            <label className="block uppercase tracking-wide text-[#0c0d2e] text-lg font-bold mb-2">
+            <label className="block uppercase tracking-wide pt-2 text-[#0c0d2e] text-lg font-bold mb-2">
               Name
             </label>
             <input

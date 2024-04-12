@@ -16,13 +16,14 @@ export default function Home() {
     <main>
       <Header />
       <Homes id="home" />
-      <Projects id="projects" projects={projects} />
       <About
         id="about"
         courseworks={coursework}
         currentlyExploring={currentlyExploring}
         skills={skills}
       />
+      <Projects id="projects" projects={projects} />
+
       <Contact id="contact" />
       <Footer />
     </main>
