@@ -7,7 +7,7 @@ const Contact = ({ id }: { id: string }) => {
 
   return (
     <div id={id} className="scroll-mt-10">
-      <h1 className="font-bold text-3xl my-8 flex justify-center titles dark:text-orange-400 text-[#0c0d2e]">
+      <h1 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles dark:text-orange-400 text-[#0c0d2e]">
         Contact
       </h1>
       <div className="mx-8 bg-white shadow-lg rounded-md">
