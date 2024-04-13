@@ -127,25 +127,21 @@ const Home = ({ id }: { id: string }) => {
             href="https://github.com/jshohet"
             target="_blank"
             className="flex flex-row items-center cursor-pointer group mr-2">
+            
             <FaGithub
               size={30}
-              className="text-black  mr-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[315deg]"
+              className="text-black dark:text-white/80  mr-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[315deg]"
             />
-            <h2 className="hidden group-hover:inline-block text-black/80">
-              Github Profile
-            </h2>
           </a>
           <a
             href="https://www.linkedin.com/in/josef-shohet"
             className="flex flex-row items-center cursor-pointer group"
             target="_blank">
-            <h2 className="hidden group-hover:inline-block text-black/80">
-              LinkedIn
-            </h2>
             <FaLinkedin
               size={30}
               className="text-cyan-500 ml-1 group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:rotate-[405deg]"
             />
+            
           </a>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="flex bg-[#0c0d2e] list-none uppercase font-semibold text-[rgba(255,255,255,.8)] flex-row justify-evenly shadow-lg h-24 text-sm sm:text-lg items-center">
+    <nav className="flex bg-[#020617] list-none uppercase font-semibold text-[rgba(255,255,255,.8)] flex-row justify-evenly shadow-lg h-24 text-sm sm:text-lg items-center pb-4">
       <li className="">
         <a href="#home" className="navLink">
           <h2>Home</h2>

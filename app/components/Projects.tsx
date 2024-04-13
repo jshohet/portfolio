@@ -34,18 +34,18 @@ const Projects = ({ id, projects }: IProjectsProps) => {
       <h1 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
         Projects
       </h1>
-      <div className="ml-8 grid grid-cols-1 xl:grid-cols-[45%_auto]">
+      <div className="mx-4 lg:mx-20 grid grid-cols-1 xl:grid-cols-[45%_auto]">
         {projects &&
           projects.map((project, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center md:items-start md:flex-row md:justify-center mb-10">
+              className="flex flex-col items-center md:items-start md:flex-row md:justify-start mb-10">
               <Image
                 src={`${project.demoPicSrc}`}
                 width={280}
                 height={285}
                 alt={project.demoPicAlt}
-                className="hover:transition-all hover:scale-110 hover:ease-in-out hover:duration-500 mr-10 rounded-md mb-2"
+                className="hover:transition-all md:w-200 hover:scale-110 hover:ease-in-out hover:duration-500 md:mr-10 rounded-md mb-2"
               />
               <div className="w-fit md:max-w-[50%]">
                 <h2 className="font-bold text-xl mb-4 projects mt-1 sm:mt-0 text-[#0c0d2e] dark:text-orange-400">
@@ -81,19 +81,21 @@ const Projects = ({ id, projects }: IProjectsProps) => {
                   href={project.demoURL}
                   className={`${
                     isUrl(project.demoURL)
-                      ? " cursor-pointer bg-[#0c0d2e] text-orange-300 dark:text-white/80 hover:underline"
-                      : " cursor-not-allowed bg-[#0c0d2e]/70 dark:text-white/80 text-orange-300/90"
+                      ? " cursor-pointer bg-[#2F3F57] text-orange-300 dark:text-white/80 hover:underline"
+                      : " cursor-not-allowed bg-[#2F3F57]/70 dark:text-white/80 text-orange-300/90"
                   } flex flex-row mb-1  w-fit rounded-md py-0.5 px-1 mr-4`}>
                   {project.demoURLText}
-                  <FiArrowUpRight
-                    className="ml-1 mt-0.5 text-orange-300"
-                    size={18}
-                  />
+                  {isUrl(project.demoURL) && (
+                    <FiArrowUpRight
+                      className="ml-1 mt-0.5 text-orange-300"
+                      size={18}
+                    />
+                  )}
                 </a>
                 {project.githubLinkText && (
                   <a
                     href={project.githubURL}
-                    className="cursor-pointer flex flex-row mb-1 hover:underline dark:text-white/80 bg-[#0c0d2e] text-orange-300 w-fit rounded-md py-0.5 px-1"
+                    className="cursor-pointer flex flex-row mb-1 hover:underline dark:text-white/80 bg-[#2F3F57] text-orange-300 w-fit rounded-md py-0.5 px-1"
                     target="_blank">
                     {project.githubLinkText}
                     <BsGithub className="ml-1 mt-0.5 text-orange-300" />

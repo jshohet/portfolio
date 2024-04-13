@@ -10,10 +10,10 @@ const Contact = ({ id }: { id: string }) => {
       <h1 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles dark:text-orange-400 text-[#0c0d2e]">
         Contact
       </h1>
-      <div className="mx-8 bg-white shadow-lg rounded-md">
-        <div className="flex flex-wrap justify-center mb-6">
+      <div className="mx-2 lg:mx-20 grid grid-cols-1 bg-white dark:bg-[#2F3F57] shadow-lg rounded-md">
+        <div className="flex flex-wrap justify-center p-4 mb-6">
           <div className="w-full px-3 mb-5">
-            <label className="block uppercase tracking-wide pt-2 text-[#0c0d2e] text-lg font-bold mb-2">
+            <label className="block uppercase tracking-wide pt-2 text-[#0c0d2e] dark:text-white/80 text-lg font-bold mb-2">
               Name
             </label>
             <input
@@ -25,7 +25,7 @@ const Contact = ({ id }: { id: string }) => {
             />
           </div>
           <div className="w-full px-3">
-            <label className="block uppercase tracking-wide text-[#0c0d2e] text-lg font-bold mb-2">
+            <label className="block uppercase tracking-wide text-[#0c0d2e] dark:text-white/80 text-lg font-bold mb-2">
               Email
             </label>
             <input
@@ -35,7 +35,7 @@ const Contact = ({ id }: { id: string }) => {
             />
           </div>
           <div className="w-full px-3 mt-5">
-            <label className="text-lg block uppercase tracking-wide text-[#0c0d2e] font-bold mb-2">
+            <label className="text-lg block uppercase tracking-wide text-[#0c0d2e] dark:text-white/80 font-bold mb-2">
               Message
             </label>
             <textarea
@@ -48,7 +48,7 @@ const Contact = ({ id }: { id: string }) => {
             <a
               href={`mailto:joe.shohet@gmail.com?subject=Email%20from%20Portfolio&body=Hi%2C%20my%20name%20is%20${name}.%20${messageBody}`}
               target="_blank"
-              className="w-full text-xl text-black/80 p-2 text-center hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300">
+              className="w-full text-xl text-black/80 p-2 dark:bg-white/80 text-center hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300">
               Submit
             </a>
           </div>
