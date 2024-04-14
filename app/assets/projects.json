@@ -10,7 +10,7 @@
   },
   {
     "name": "Chou Bot",
-    "description": " A Discord bot integrated with ChatGPT to provide a sarcastic chatbot companion. Also comes with commands and a levelling system within the server. Currently serving 20 people. Not available to try. Hosted with AWS using a Docker container.",
+    "description": " A Discord bot integrated with ChatGPT to provide a sarcastic chatbot companion. Also comes with moderation commands and a levelling system within the server backed by MongoDB. Currently serving 20 people. Not available to try. Hosted with AWS using a Docker container.",
     "demoPicSrc": "/img/choubot.png",
     "demoPicAlt": "Choubot face picture.",
     "frameworks": ["FaNodeJs", "BsDiscord"],
@@ -21,7 +21,7 @@
   },
   {
     "name": "Zhongli Bot",
-    "description": "A Zhongli role-playing bot for Discord. Requires a #zhongli channel in your server for message responses with quotes. Fairly simple but commissioned. Hosted with AWS using a Docker container. Try it out!",
+    "description": "A Zhongli role-playing bot for Discord. Requires a #zhongli channel in your server for message responses with quotes and images. Fairly simple but commissioned. Hosted with AWS using a Docker container. Try it out!",
     "demoPicSrc": "/img/zhonglibot.png",
     "demoPicAlt": "Zhongli bot face picture.",
     "frameworks": ["FaNodeJs", "BsDiscord"],
@@ -54,7 +54,7 @@
   },
   {
     "name": "Task Driver",
-    "description": "Task driver is a compact to-do list that stays even when you leave the page. Recently added categories, a Redux store for state perpetuation, responsive UX with toasts, and slightly improved styling.",
+    "description": "Task driver is a compact to-do list that stays even when you leave the page using local storage. Recently added categories, a Redux store for filtering categories, responsive UX with toasts, and slightly improved styling.",
     "demoPicSrc": "/img/todolistdemo.PNG",
     "demoPicAlt": "To-do list demo.",
     "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],

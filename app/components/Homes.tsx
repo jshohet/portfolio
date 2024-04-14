@@ -119,7 +119,7 @@ const Home = ({ id }: { id: string }) => {
             href="/JosefShohetResume.pdf"
             className="flex pt-2 text-black/80 text-xl px-1.5 pb-2 sm-1.5  hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300"
             download={"/JosefShohetResume.pdf"}>
-            Download CV <RiDownload2Fill className="ml-2" size={25} />
+            See Josef&#39;s Experience <RiDownload2Fill className="ml-2" size={25} />
           </a>
         </div>
         <div className="flex justify-center mt-2">
