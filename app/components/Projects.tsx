@@ -81,8 +81,8 @@ const Projects = ({ id, projects }: IProjectsProps) => {
                   href={project.demoURL}
                   className={`${
                     isUrl(project.demoURL)
-                      ? " cursor-pointer bg-[#2F3F57] text-orange-300 dark:text-white/80 hover:underline"
-                      : " cursor-not-allowed bg-[#2F3F57]/70 dark:text-white/80 text-orange-300/90"
+                      ? " cursor-pointer bg-[#0c0d2e] dark:bg-[#2F3F57] text-orange-300 dark:text-white/80 hover:underline"
+                      : " cursor-not-allowed bg-[#0c0d2e]/70 dark:bg-[#2F3F57]/70 dark:text-white/80 text-orange-300/90"
                   } flex flex-row mb-1  w-fit rounded-md py-0.5 px-1 mr-4`}>
                   {project.demoURLText}
                   {isUrl(project.demoURL) && (
@@ -95,7 +95,7 @@ const Projects = ({ id, projects }: IProjectsProps) => {
                 {project.githubLinkText && (
                   <a
                     href={project.githubURL}
-                    className="cursor-pointer flex flex-row mb-1 hover:underline dark:text-white/80 bg-[#2F3F57] text-orange-300 w-fit rounded-md py-0.5 px-1"
+                    className="cursor-pointer flex flex-row mb-1 hover:underline dark:text-white/80 bg-[#0c0d2e] dark:bg-[#2F3F57] text-orange-300 w-fit rounded-md py-0.5 px-1"
                     target="_blank">
                     {project.githubLinkText}
                     <BsGithub className="ml-1 mt-0.5 text-orange-300" />
