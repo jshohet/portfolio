@@ -26,7 +26,7 @@ const About = ({
       <div className=" lg:mx-20 grid grid-cols-1 lg:grid-cols-[45%_auto]">
         <div className="text-[#0c0d2e] dark:text-white/80 dark:bg-[#2F3F57] mb-2 bg-orange-300 h-fit  rounded-lg lg:mr-10 w-fit p-4 lg:ml-0 mx-2">
           <p className="indent-5 my-1">
-            Hey, I&#39;m Josef Shohet,aspiring to excel as a front-end React
+            Hey, I&#39;m Josef Shohet, aspiring to excel as a front-end React
             developer. With a not-so-brief string in landscaping resulting in a more recent dive into
             software development, I&#39;ve discovered my passion for crafting
             websites. My journey has sharpened my determination, focus, and eye
