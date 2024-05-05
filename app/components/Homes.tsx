@@ -117,9 +117,9 @@ const Home = ({ id }: { id: string }) => {
         <div className=" border-2 rounded-[.65rem]  border-solid dark:bg-white/80 border-black/80 hover:border-orange-500">
           <a
             href="/JosefShohetResume.pdf"
-            className="flex pt-2 text-black/80 text-xl px-1.5 pb-2 sm-1.5  hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300"
+            className="flex items-center pt-2 text-black/80 text-xl md:text-3xl px-1.5 pb-2 sm-1.5  hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300"
             download={"/JosefShohetResume.pdf"}>
-            See Josef&#39;s Experience <RiDownload2Fill className="ml-2" size={25} />
+            Josef&#39;s Resume <RiDownload2Fill className="ml-2" size={25} />
           </a>
         </div>
         <div className="flex justify-center mt-2">
