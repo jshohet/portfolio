@@ -114,7 +114,7 @@ const Home = ({ id }: { id: string }) => {
           height={580}
           className="rounded-full mb-4"
         />
-        <div className=" border-2 rounded-[.65rem]  border-solid dark:bg-white/80 border-black/80 hover:border-orange-500">
+        <div className=" border-2 rounded-[.65rem] border-solid dark:bg-white/80 border-black/80 hover:border-orange-500">
           <a
             href="/JosefShohetResume.pdf"
             className="flex items-center pt-2 text-black/80 text-xl md:text-3xl px-1.5 pb-2 sm-1.5  hover:bg-[#0c0d2e] rounded-lg hover:text-orange-300"
