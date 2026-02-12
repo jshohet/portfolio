@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
@@ -43,7 +43,22 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={poppins.className}>
         {children}
-        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
+        {gaId ? (
+          <>
+            <Script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${gaId}');
+              `}
+            </Script>
+          </>
+        ) : null}
       </body>
     </html>
   );
