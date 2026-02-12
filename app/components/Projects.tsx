@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { FiArrowUpRight } from "react-icons/fi/";
-import { BsGithub } from "react-icons/bs/";
+import { FiArrowUpRight } from "react-icons/fi";
+import { BsGithub } from "react-icons/bs";
 import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
