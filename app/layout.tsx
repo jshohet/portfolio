@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({ weight: ["500"], subsets: ["latin"] });
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://josef-shohet-portfolio.vercel.app/"),
@@ -42,7 +43,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={poppins.className}>
         {children}
-        <GoogleAnalytics gaId="G-XHXSQT2C4W" />
+        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
       </body>
     </html>
   );
