@@ -40,8 +40,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <GoogleAnalytics gaId="G-XHXSQT2C4W" />
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        {children}
+        <GoogleAnalytics gaId="G-XHXSQT2C4W" />
+      </body>
     </html>
   );
 }
