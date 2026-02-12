@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
@@ -40,16 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-XHXSQT2C4W"></Script>
-      <Script id="google-analytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-XHXSQT2C4W');
-        `}
-      </Script>
+      <GoogleAnalytics gaId="G-XHXSQT2C4W" />
       <body className={poppins.className}>{children}</body>
     </html>
   );
