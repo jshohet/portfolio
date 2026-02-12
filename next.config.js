@@ -1,9 +1,10 @@
+const path = require("path");
+
 /** @type {import('next').NextConfig} */
-const nextConfig = { turbopack: {
-    // Set the root to the directory where next.config.js is located,
-    // or a parent directory if necessary.
-    root: path.join(__dirname, './'), 
-    // You might need to adjust './' to '../' or another path depending on your structure
+const nextConfig = {
+  turbopack: {
+    root: path.resolve(__dirname),
   },
 };
-module.exports = nextConfig
+
+module.exports = nextConfig;
