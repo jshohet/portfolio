@@ -1,11 +1,12 @@
-import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import "./globals.css";
 
-const poppins = Poppins({ weight: ["500"], subsets:["latin"] })
+const poppins = Poppins({ weight: ["500"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://josef-shohet-portfolio.vercel.app/'),
+  metadataBase: new URL("https://josef-shohet-portfolio.vercel.app/"),
   title: "Josef Shohet Portfolio",
   description:
     "Josef Shohet Front-End React Portfolio. Showcase of projects and coursework.",
@@ -35,13 +36,13 @@ export const viewport = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <GoogleAnalytics gaId="G-XHXSQT2C4W" />
+
       <body className={poppins.className}>{children}</body>
     </html>
   );
 }
-
-
