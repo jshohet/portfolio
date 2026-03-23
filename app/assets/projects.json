@@ -2,7 +2,7 @@
   {
     "name": "Business Dashboard",
     "description": "Business Dashboard is a retail intelligence platform that helps store teams track sales, staff schedules, and operational efficiency to make data-backed decisions.",
-    "demoPicSrc": "/img/businessdashboard.png",
+    "demoPicSrc": "/img/businessdashbaord.png",
     "demoPicAlt": "Business Dashboard demo picture.",
     "frameworks": [
       "BiLogoTypescript",
