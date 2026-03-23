@@ -1,5 +1,35 @@
 [
   {
+    "name": "Business Dashboard",
+    "description": "Business Dashboard is a retail intelligence platform that helps store teams track sales, staff schedules, and operational efficiency to make data-backed decisions.",
+    "demoPicSrc": "/img/businessdashboard.png",
+    "demoPicAlt": "Business Dashboard demo picture.",
+    "frameworks": [
+      "BiLogoTypescript",
+      "BiLogoTailwindCss",
+      "TbBrandNextjs",
+      "TbBrandPrisma",
+      "SiPostgresql"
+    ],
+    "demoURL": "#",
+    "demoURLText": "Try out this site"
+  },
+  {
+    "name": "Amblog",
+    "description": "Amblog is a clean, modern blog platform built with Next.js for sharing stories and ideas. It features a user-friendly interface, responsive design, and seamless navigation. With support for rich media content and customizable themes, Amblog provides an engaging experience for both writers and readers. Whether you're a seasoned blogger or just starting out, Amblog offers the tools you need to create and share your unique voice with the world. ",
+    "demoPicSrc": "/img/amblog.png",
+    "demoPicAlt": "Amblog demo picture.",
+    "frameworks": [
+      "BiLogoTypescript",
+      "BiLogoTailwindCss",
+      "TbBrandNextjs",
+      "TbBrandPrisma",
+      "SiPostgresql"
+    ],
+    "demoURL": "#",
+    "demoURLText": "Try out this site"
+  },
+  {
     "name": "Raider's Digest",
     "description": "A soon-to-be website with various resources for Final Fantasy XIV players that want to explore Ultimate content. Collaborative effort with several teammates, including a UX designer, another developer, and a content creator. Built using Nextjs.",
     "demoPicSrc": "/img/raidersdigestdemo.png",

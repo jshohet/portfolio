@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
-import { BsGithub } from "react-icons/bs";
+import { BsDiscord, BsGithub } from "react-icons/bs";
 import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandPrisma } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
-import { BsDiscord } from "react-icons/bs";
+import { SiPostgresql } from "react-icons/si";
 import isUrl from "is-url";
 type Icon = {
   icon: string;
@@ -69,6 +69,12 @@ const Projects = ({ id, projects }: IProjectsProps) => {
                   )}
                   {project.frameworks.includes("TbBrandNextjs") && (
                     <TbBrandNextjs size={30} className="text-black ml-1" />
+                  )}
+                  {project.frameworks.includes("TbBrandPrisma") && (
+                    <TbBrandPrisma size={30} className="text-black ml-1" />
+                  )}
+                  {project.frameworks.includes("SiPostgresql") && (
+                    <SiPostgresql size={30} className="text-sky-700 ml-1" />
                   )}
                   {project.frameworks.includes("FaNodeJs") && (
                     <FaNodeJs size={30} className="text-[#68a063] ml-1" />
