@@ -25,25 +25,17 @@ const About = ({
       </h1>
       <div className=" lg:mx-20 grid grid-cols-1 lg:grid-cols-[45%_auto]">
         <div className="text-[#0c0d2e] dark:text-white/80 dark:bg-[#2F3F57] mb-2 bg-orange-300 h-fit  rounded-lg lg:mr-10 w-fit px-4 pt-1 pb-4 lg:ml-0 mx-2">
-          <p className="indent-5 my-1">
-            Hey, I&#39;m Josef Shohet, aspiring to excel as a front-end React
-            developer. With a not-so-brief stint in landscaping resulting in a more recent dive into
-            software development, I&#39;ve discovered my passion for crafting
-            websites. My journey has sharpened my determination, focus, and eye
-            for detail, driving me toward personal and professional success.
+          <p className="indent-5 my-1 font-bold text-lg">
+            I build software that improves real-world operations.
           </p>
           <p className="indent-5 mt-2">
-            Entering the professional realm as a freelance developer, I&#39;ve
-            embarked on several projects, including a significant endeavor—a
-            detailed video game guide designed for simplicity yet depth. This
-            experience solidifies my conviction that website development is my
-            true calling. Each day, the prospect of working on such projects
-            fills me with excitement and drive.
+            Full-stack developer with experience managing $50K+/week operations
+            and building tools that reduce costs, errors, and manual work. I
+            specialize in turning messy workflows into clean, scalable systems.
           </p>
           <p className="indent-5 mt-2">
-            When I&#39;m not learning or coding, I enjoy playing video games,
-            reading, and working out. These all contribute in various ways to
-            keep my mind engaged and inspired.
+            Currently focused on React, Next.js, Node.js, and data-driven
+            applications.
           </p>
         </div>
         <div className="flex flex-col justify-evenly">

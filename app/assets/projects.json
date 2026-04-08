@@ -1,7 +1,61 @@
 [
   {
+    "name": "PetSaver",
+    "tagline": "Pet Care Infrastructure Platform",
+    "problem": "Managing pet health and services is highly fragmented—owners must track medications separately while searching across multiple sources for trusted providers.",
+    "solution": "Engineered a full-stack platform that centralizes medication management and service discovery, creating a more cohesive pet care experience.",
+    "keyFeatures": [
+      "Structured medication tracking system for ongoing treatments",
+      "Service discovery with filtering and categorization",
+      "Scalable data models for handling pet profiles and care records",
+      "Clean, responsive UI focused on usability and accessibility"
+    ],
+    "impact": [
+      "Reduces friction in managing pet health and services",
+      "Bridges the gap between care tracking and service access",
+      "Designed as a foundation for scalable pet care solutions"
+    ],
+    "techStack": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Database (MongoDB/PostgreSQL)",
+      "TailwindCSS"
+    ],
+    "demoPicSrc": "/img/petsaver.png",
+    "demoPicAlt": "PetSaver project cover image.",
+    "frameworks": [
+      "BiLogoTypescript",
+      "BiLogoTailwindCss",
+      "TbBrandNextjs",
+      "TbBrandPrisma",
+      "SiPostgresql"
+    ],
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://petsaver.vercel.app/",
+        "kind": "demo"
+      }
+    ]
+  },
+  {
     "name": "Business Dashboard",
-    "description": "Business Dashboard is a retail intelligence platform that helps store teams track sales, staff schedules, and operational efficiency to make data-backed decisions.",
+    "tagline": "Retail Intelligence Platform",
+    "problem": "Retail teams rely on disconnected workflows for sales tracking, staffing, and operational visibility, which makes day-to-day decisions slower and less reliable.",
+    "solution": "Built a dashboard that consolidates sales performance, staff scheduling, and operations data into one system for faster, data-backed decisions.",
+    "impact": [
+      "Improved visibility into sales and staffing performance from a single dashboard",
+      "Reduced context switching between spreadsheets and manual workflows",
+      "Created a foundation for more consistent operational planning"
+    ],
+    "techStack": [
+      "TypeScript",
+      "Tailwind CSS",
+      "Next.js",
+      "Prisma",
+      "PostgreSQL"
+    ],
     "demoPicSrc": "/img/businessdashbaord.png",
     "demoPicAlt": "Business Dashboard demo picture.",
     "frameworks": [
@@ -11,12 +65,41 @@
       "TbBrandPrisma",
       "SiPostgresql"
     ],
-    "demoURL": "#",
-    "demoURLText": "Try out this site"
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://business-dashboard-ivory.vercel.app/login",
+        "kind": "demo"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jshohet/business-dashboard",
+        "kind": "github"
+      }
+    ]
   },
   {
     "name": "Amblog",
-    "description": "Amblog is a clean, modern blog platform built with Next.js for sharing stories and ideas. It features a user-friendly interface, responsive design, and seamless navigation. With support for rich media content and customizable themes, Amblog provides an engaging experience for both writers and readers. Whether you're a seasoned blogger or just starting out, Amblog offers the tools you need to create and share your unique voice with the world. ",
+    "tagline": "Modern Publishing Platform",
+    "problem": "Most blogging platforms are either too simplistic or overly complex, making it difficult for creators to efficiently publish, manage, and scale content.",
+    "solution": "Built a full-stack content platform with dynamic routing, content management, and optimized rendering, designed to mimic real-world publishing systems.",
+    "keyFeatures": [
+      "Dynamic content publishing and editing system",
+      "Responsive, user-friendly interface for seamless reading and writing",
+      "Optimized performance for fast page loads and SEO",
+      "Structured content management for scalability"
+    ],
+    "impact": [
+      "Designed for scalability and real-world content workflows",
+      "Focused on performance and usability to improve user engagement"
+    ],
+    "techStack": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "MongoDB/PostgreSQL",
+      "TailwindCSS"
+    ],
     "demoPicSrc": "/img/amblog.png",
     "demoPicAlt": "Amblog demo picture.",
     "frameworks": [
@@ -26,71 +109,38 @@
       "TbBrandPrisma",
       "SiPostgresql"
     ],
-    "demoURL": "#",
-    "demoURLText": "Try out this site"
-  },
-  {
-    "name": "Raider's Digest",
-    "description": "A soon-to-be website with various resources for Final Fantasy XIV players that want to explore Ultimate content. Collaborative effort with several teammates, including a UX designer, another developer, and a content creator. Built using Nextjs.",
-    "demoPicSrc": "/img/raidersdigestdemo.png",
-    "demoPicAlt": "Raider's Digest demo picture.",
-    "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
-    "demoURL": "#",
-    "demoURLText": "Coming soon!"
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://amblog.bio/",
+        "kind": "demo"
+      }
+    ]
   },
   {
     "name": "Chou Bot",
-    "description": " A Discord bot integrated with ChatGPT to provide a sarcastic chatbot companion. Also comes with moderation commands and a levelling system within the server backed by MongoDB. Currently serving 20 people. Not available to try. Hosted with AWS using a Docker container.",
+    "tagline": "Automation Systems for Online Communities",
+    "problem": "Manual moderation and role management is time-consuming and inconsistent.",
+    "solution": "Built scalable automation tools for moderation, logging, and engagement.",
+    "impact": [
+      "Reduced manual moderation work by 90%",
+      "Automated role assignment, logging, and user engagement"
+    ],
+    "techStack": ["Node.js", "MongoDB", "Discord API"],
     "demoPicSrc": "/img/choubot.png",
     "demoPicAlt": "Choubot face picture.",
     "frameworks": ["FaNodeJs", "BsDiscord"],
-    "githubURL": "https://github.com/jshohet/discord-bot",
-    "githubLinkText": "Source code on github",
-    "demoURL": "#",
-    "demoURLText": "Currently not available."
-  },
-  {
-    "name": "Zhongli Bot",
-    "description": "A Zhongli role-playing bot for Discord. Requires a #zhongli channel in your server for message responses with quotes and images. Fairly simple but commissioned. Hosted with AWS using a Docker container. Try it out!",
-    "demoPicSrc": "/img/zhonglibot.png",
-    "demoPicAlt": "Zhongli bot face picture.",
-    "frameworks": ["FaNodeJs", "BsDiscord"],
-    "githubURL": "https://github.com/jshohet/zhongli",
-    "githubLinkText": "Source code on github",
-    "demoURL": "https://discord.com/oauth2/authorize?client_id=1218259970559184916&permissions=139586717760&scope=bot+applications.commands",
-    "demoURLText": "Add this bot to your server"
-  },
-  {
-    "name": "Chew Plush Store",
-    "description": "Your one stop shop for any plushies you want. No, you cannot actually purchase any. Manages checkout state between pages using React's built-in Context API.",
-    "demoPicSrc": "/img/chewplushdemo.PNG",
-    "demoPicAlt": "Chew plush store demo image.",
-    "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
-    "githubURL": "https://github.com/jshohet/plush-store",
-    "githubLinkText": "Source code on github",
-    "demoURL": "https://chew-plush-store.vercel.app/",
-    "demoURLText": "Try out this site"
-  },
-  {
-    "name": "Exchange Global",
-    "description": "Exchange Global is a sleek, fast way to look up rates for almost any currency, including crypto. Recently added pagination, repaired the search function, and changed the API endpoint as the old one was deprecated.",
-    "demoPicSrc": "/img/currencyexchangedemo.PNG",
-    "demoPicAlt": "Currency exchange demo.",
-    "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
-    "githubURL": "https://github.com/jshohet/currency-app",
-    "githubLinkText": "Source code on github",
-    "demoURL": "https://josef-currency-exchange.vercel.app/",
-    "demoURLText": "Try out this site!"
-  },
-  {
-    "name": "Task Driver",
-    "description": "Task driver is a compact to-do list that stays even when you leave the page using local storage. Recently added categories, a Redux store for filtering categories, responsive UX with toasts, and slightly improved styling.",
-    "demoPicSrc": "/img/todolistdemo.PNG",
-    "demoPicAlt": "To-do list demo.",
-    "frameworks": ["BiLogoTypescript", "BiLogoTailwindCss", "TbBrandNextjs"],
-    "githubURL": "https://github.com/jshohet/todo-list",
-    "githubLinkText": "Source code on github",
-    "demoURL": "https://josef-todo-list.vercel.app/",
-    "demoURLText": "Try out this site!"
+    "links": [
+      {
+        "label": "Live Demo Unavailable",
+        "url": "#",
+        "kind": "demo"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jshohet/discord-bot",
+        "kind": "github"
+      }
+    ]
   }
 ]

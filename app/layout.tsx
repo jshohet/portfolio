@@ -8,24 +8,52 @@ const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://josef-shohet-portfolio.vercel.app/"),
-  title: "Josef Shohet Portfolio",
+  title: {
+    default: "Josef Shohet | Full-Stack Developer",
+    template: "%s | Josef Shohet",
+  },
   description:
-    "Josef Shohet Front-End React Portfolio. Showcase of projects and coursework.",
+    "Portfolio of Josef Shohet, a full-stack developer building modern web products with React, Next.js, TypeScript, Prisma, and PostgreSQL.",
+  keywords: [
+    "Josef Shohet",
+    "full-stack developer",
+    "React developer",
+    "Next.js portfolio",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "web developer portfolio",
+  ],
+  authors: [{ name: "Josef Shohet" }],
+  creator: "Josef Shohet",
+  publisher: "Josef Shohet",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Josef Shohet Portfolio",
+    type: "website",
+    title: "Josef Shohet | Full-Stack Developer",
     description:
-      "Josef Shohet Front-End React Portfolio. Showcase of projects and coursework.",
+      "Explore full-stack projects by Josef Shohet, including product, automation, and content-platform work built with modern web technologies.",
     url: "https://josef-shohet-portfolio.vercel.app/",
     siteName: "Josef Shohet Portfolio",
     images: [
       {
-        url: "https://i.imgur.com/9uBoPuN.jpeg",
-        width: 1800,
-        height: 1600,
-        alt: "Josef Shohet",
+        url: "/img/headshot.jpg",
+        width: 1200,
+        height: 1200,
+        alt: "Portrait of Josef Shohet",
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Josef Shohet | Full-Stack Developer",
+    description:
+      "Portfolio of Josef Shohet featuring full-stack products built with React, Next.js, TypeScript, Prisma, and PostgreSQL.",
+    images: ["/img/headshot.jpg"],
+  },
+  category: "technology",
 };
 
 export const viewport = {
