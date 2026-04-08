@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 
 const Contact = ({ id }: { id: string }) => {
@@ -7,9 +7,9 @@ const Contact = ({ id }: { id: string }) => {
 
   return (
     <div id={id} className="scroll-mt-10">
-      <h1 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles dark:text-orange-400 text-[#0c0d2e]">
+      <h2 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles dark:text-orange-400 text-[#0c0d2e]">
         Contact
-      </h1>
+      </h2>
       <div className="mx-2 lg:mx-20 grid grid-cols-1 bg-white dark:bg-[#2F3F57] shadow-lg rounded-md">
         <div className="flex flex-wrap justify-center p-4 mb-6">
           <div className="w-full px-3 mb-5">

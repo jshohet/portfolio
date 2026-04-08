@@ -36,9 +36,9 @@ interface IProjectsProps {
 const Projects = ({ id, projects }: IProjectsProps) => {
   return (
     <div id={id} className="scroll-mt-10">
-      <h1 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
+      <h2 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
         Projects
-      </h1>
+      </h2>
       <div className="mx-4 lg:mx-20 grid grid-cols-1 xl:grid-cols-[46%_auto]">
         {projects &&
           projects.map((project, idx) => (

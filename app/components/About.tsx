@@ -20,22 +20,30 @@ const About = ({
 }: IAboutProps) => {
   return (
     <div className="mb-20 mt-10 scroll-mt-10" id={id}>
-      <h1 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
+      <h2 className="font-bold text-3xl mt-8 mb-20 flex justify-center titles text-[#0c0d2e] dark:text-orange-400">
         About
-      </h1>
+      </h2>
       <div className=" lg:mx-20 grid grid-cols-1 lg:grid-cols-[45%_auto]">
         <div className="text-[#0c0d2e] dark:text-white/80 dark:bg-[#2F3F57] mb-2 bg-orange-300 h-fit  rounded-lg lg:mr-10 w-fit px-4 pt-1 pb-4 lg:ml-0 mx-2">
           <p className="indent-5 my-1 font-bold text-lg">
-            I build software that improves real-world operations.
+            I build full-stack software that improves real-world operations.
           </p>
           <p className="indent-5 mt-2">
             Full-stack developer with experience managing $50K+/week operations
-            and building tools that reduce costs, errors, and manual work. I
-            specialize in turning messy workflows into clean, scalable systems.
+            and building web applications that reduce costs, errors, and manual
+            work. I specialize in turning messy workflows into clean, scalable
+            systems with React, Next.js, TypeScript, Node.js, Prisma, and
+            PostgreSQL.
           </p>
           <p className="indent-5 mt-2">
-            Currently focused on React, Next.js, Node.js, and data-driven
-            applications.
+            My recent work includes automation systems, publishing platforms,
+            and marketplace-style product experiences with search, data, and
+            operations tooling.
+          </p>
+          <p className="indent-5 mt-2">
+            Currently focused on building modern full-stack products for teams
+            that need reliable software, cleaner workflows, and data-driven
+            decision making.
           </p>
         </div>
         <div className="flex flex-col justify-evenly">

@@ -5,9 +5,48 @@ import "./globals.css";
 
 const poppins = Poppins({ weight: ["500"], subsets: ["latin"] });
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
+const baseUrl = "https://josef-shohet-portfolio.vercel.app";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      name: "Josef Shohet",
+      url: baseUrl,
+      image: `${baseUrl}/img/headshot.jpg`,
+      jobTitle: "Full-Stack Developer",
+      sameAs: [
+        "https://github.com/jshohet",
+        "https://www.linkedin.com/in/josef-shohet",
+      ],
+      knowsAbout: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Prisma",
+        "PostgreSQL",
+        "Workflow Automation",
+        "Web Application Development",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      name: "Josef Shohet Portfolio",
+      url: baseUrl,
+      description:
+        "Portfolio of Josef Shohet, a full-stack developer building modern web products, automation systems, and data-driven applications.",
+      author: {
+        "@type": "Person",
+        name: "Josef Shohet",
+      },
+    },
+  ],
+};
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://josef-shohet-portfolio.vercel.app/"),
+  metadataBase: new URL(`${baseUrl}/`),
   title: {
     default: "Josef Shohet | Full-Stack Developer",
     template: "%s | Josef Shohet",
@@ -70,6 +109,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={poppins.className}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
         {children}
         {gaId ? (
           <>

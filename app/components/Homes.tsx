@@ -24,7 +24,13 @@ const Home = ({ id }: { id: string }) => {
   return (
     <div className="mb-20 scroll-mt-10" id={id}>
       <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent dark:from-[#2e3c4f] dark:via-[#2e3c4f]">
-        <div className="flex justify-center ml-2 text-[30px] sm:text-4xl md:text-6xl mt-10 select-none">
+        <h1 className="sr-only">
+          Josef Shohet - Full-Stack Developer building Next.js, React,
+          TypeScript, Prisma, and PostgreSQL applications
+        </h1>
+        <div
+          aria-hidden="true"
+          className="flex justify-center ml-2 text-[30px] sm:text-4xl md:text-6xl mt-10 select-none">
           {firstNameLetters.map((letter) => (
             <NameLetter key={`first-${letter}`} letter={letter} />
           ))}
@@ -37,6 +43,11 @@ const Home = ({ id }: { id: string }) => {
           <h2 className="text-black/80 dark:text-white/80 font-semibold text-center text-lg sm:text-xl mt-2 select-none">
             Full-Stack Developer
           </h2>
+          <p className="mx-auto mt-3 max-w-2xl px-4 text-center text-sm sm:text-base text-[#0c0d2e]/80 dark:text-white/80">
+            Building React, Next.js, TypeScript, Node.js, Prisma, and PostgreSQL
+            products focused on operations, automation, and data-driven web
+            applications.
+          </p>
         </div>
       </div>
 
