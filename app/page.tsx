@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import projects from "./assets/projects.json";
 import skills from "./assets/skills.json";
-import coursework from "./assets/coursework.json";
 import currentlyExploring from "./assets/currentlyexploring.json";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
       <Homes id="home" />
       <About
         id="about"
-        courseworks={coursework}
         currentlyExploring={currentlyExploring}
         skills={skills}
       />

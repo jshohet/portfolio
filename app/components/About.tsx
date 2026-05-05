@@ -1,20 +1,43 @@
 import React from "react";
+import { SiHtml5, SiCss3, SiJavascript, SiJquery, SiBootstrap, SiPostgresql, SiMongodb, SiRedux, SiJest, SiVercel } from "react-icons/si";
+import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
+import { FaReact, FaNodeJs, FaGitAlt, FaDocker, FaAws, FaFigma } from "react-icons/fa";
+import { TbBrandNextjs, TbBrandPrisma, TbBrandCSharp } from "react-icons/tb";
+import { BsDiscord } from "react-icons/bs";
 
-type Courses = {
-  course: string;
-  hours: string;
+const SKILL_ICONS: Record<string, React.ReactElement> = {
+  HTML: <SiHtml5 className="mr-1 text-orange-500" />,
+  CSS: <SiCss3 className="mr-1 text-blue-500" />,
+  Javascript: <SiJavascript className="mr-1 text-yellow-400" />,
+  TypeScript: <BiLogoTypescript className="mr-1 text-cyan-400" />,
+  jQuery: <SiJquery className="mr-1 text-blue-400" />,
+  TailwindCSS: <BiLogoTailwindCss className="mr-1 text-cyan-500" />,
+  Bootstrap: <SiBootstrap className="mr-1 text-purple-500" />,
+  React: <FaReact className="mr-1 text-cyan-400" />,
+  "Next.js": <TbBrandNextjs className="mr-1" />,
+  "Node.js": <FaNodeJs className="mr-1 text-[#68a063]" />,
+  Prisma: <TbBrandPrisma className="mr-1" />,
+  PostgreSQL: <SiPostgresql className="mr-1 text-sky-700" />,
+  MongoDB: <SiMongodb className="mr-1 text-green-500" />,
+  "C#": <TbBrandCSharp className="mr-1 text-purple-600" />,
+  Git: <FaGitAlt className="mr-1 text-orange-600" />,
+  Docker: <FaDocker className="mr-1 text-blue-500" />,
+  Redux: <SiRedux className="mr-1 text-purple-500" />,
+  "Discord.js": <BsDiscord className="mr-1 text-indigo-400" />,
+  AWS: <FaAws className="mr-1 text-orange-400" />,
+  Figma: <FaFigma className="mr-1 text-pink-500" />,
+  Jest: <SiJest className="mr-1 text-red-500" />,
+  Vercel: <SiVercel className="mr-1" />,
 };
 
 interface IAboutProps {
   id: string;
-  courseworks: Courses[];
   currentlyExploring: string[];
   skills: string[];
 }
 
 const About = ({
   id,
-  courseworks,
   currentlyExploring,
   skills,
 }: IAboutProps) => {
@@ -55,7 +78,8 @@ const About = ({
               {skills.map((skill, i) => (
                 <span
                   key={i}
-                  className="bg-[#0c0d2e] dark:bg-[#2F3F57] text-orange-300 dark:text-white/80  rounded-lg mx-0.5 p-2 h-fit mb-1">
+                  className="bg-[#0c0d2e] dark:bg-[#2F3F57] text-orange-300 dark:text-white/80 rounded-lg mx-0.5 p-2 h-fit mb-1 flex items-center">
+                  {SKILL_ICONS[skill] ?? null}
                   {skill}
                 </span>
               ))}
@@ -72,19 +96,6 @@ const About = ({
                   className="bg-[#0c0d2e] dark:bg-[#2F3F57] text-orange-300 dark:text-white/80  rounded-lg mx-0.5 p-2 h-fit mb-1">
                   {subject}
                 </span>
-              ))}
-            </div>
-          </section>
-          <section className="flex flex-col lg:mx-0 mx-2">
-            <h3 className="font-bold text-lg my-2 flex justify-start text-[#0c0d2e] dark:text-orange-300">
-              Coursework:{" "}
-            </h3>
-            <div className="flex flex-col flex-wrap items-start ml-2 dark:text-white/80">
-              {courseworks.map((course, idx) => (
-                <div key={idx}>
-                  {course.course} -{" "}
-                  <span className="italic">{course.hours}</span>
-                </div>
               ))}
             </div>
           </section>

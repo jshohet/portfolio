@@ -2,24 +2,16 @@
   {
     "name": "PetSaver",
     "tagline": "Pet Care Infrastructure Platform",
-    "problem": "Managing pet health and services is highly fragmented—owners must track medications separately while searching across multiple sources for trusted providers.",
-    "solution": "Engineered a full-stack platform that centralizes medication management and service discovery, creating a more cohesive pet care experience.",
-    "keyFeatures": [
-      "Structured medication tracking system for ongoing treatments",
-      "Service discovery with filtering and categorization",
-      "Scalable data models for handling pet profiles and care records",
-      "Clean, responsive UI focused on usability and accessibility"
-    ],
+    "problem": "Pet care is fragmented—medication tracking and provider search happen across completely separate tools.",
+    "solution": "Full-stack platform that centralizes medication management and service discovery in one place.",
     "impact": [
-      "Reduces friction in managing pet health and services",
-      "Bridges the gap between care tracking and service access",
-      "Designed as a foundation for scalable pet care solutions"
+      "One platform for pet health records, care tracking, and finding trusted providers"
     ],
     "techStack": [
       "React",
       "Next.js",
       "Node.js",
-      "Database (MongoDB/PostgreSQL)",
+      "PostgreSQL",
       "TailwindCSS"
     ],
     "demoPicSrc": "/img/petsaver.png",
@@ -42,12 +34,11 @@
   {
     "name": "Business Dashboard",
     "tagline": "Retail Intelligence Platform",
-    "problem": "Retail teams rely on disconnected workflows for sales tracking, staffing, and operational visibility, which makes day-to-day decisions slower and less reliable.",
-    "solution": "Built a dashboard that consolidates sales performance, staff scheduling, and operations data into one system for faster, data-backed decisions.",
+    "problem": "Retail teams track sales, staffing, and operations across disconnected spreadsheets.",
+    "solution": "Dashboard that consolidates sales performance, staff scheduling, and operations data for faster decisions.",
     "impact": [
-      "Improved visibility into sales and staffing performance from a single dashboard",
-      "Reduced context switching between spreadsheets and manual workflows",
-      "Created a foundation for more consistent operational planning"
+      "Single view of sales and staffing performance",
+      "Replaced manual spreadsheet workflows"
     ],
     "techStack": [
       "TypeScript",
@@ -81,23 +72,16 @@
   {
     "name": "Amblog",
     "tagline": "Modern Publishing Platform",
-    "problem": "Most blogging platforms are either too simplistic or overly complex, making it difficult for creators to efficiently publish, manage, and scale content.",
-    "solution": "Built a full-stack content platform with dynamic routing, content management, and optimized rendering, designed to mimic real-world publishing systems.",
-    "keyFeatures": [
-      "Dynamic content publishing and editing system",
-      "Responsive, user-friendly interface for seamless reading and writing",
-      "Optimized performance for fast page loads and SEO",
-      "Structured content management for scalability"
-    ],
+    "problem": "Most blogging platforms are either too bare or too bloated for efficient content publishing.",
+    "solution": "Full-stack publishing platform with dynamic routing, content management, and SEO-optimized rendering.",
     "impact": [
-      "Designed for scalability and real-world content workflows",
-      "Focused on performance and usability to improve user engagement"
+      "Clean read/write experience built for performance and scale"
     ],
     "techStack": [
       "Next.js",
       "React",
       "Node.js",
-      "MongoDB/PostgreSQL",
+      "PostgreSQL",
       "TailwindCSS"
     ],
     "demoPicSrc": "/img/amblog.png",
@@ -121,7 +105,7 @@
     "name": "Chou Bot",
     "tagline": "Automation Systems for Online Communities",
     "problem": "Manual moderation and role management is time-consuming and inconsistent.",
-    "solution": "Built scalable automation tools for moderation, logging, and engagement.",
+    "solution": "Scalable automation for moderation, logging, and community engagement.",
     "impact": [
       "Reduced manual moderation work by 90%",
       "Automated role assignment, logging, and user engagement"

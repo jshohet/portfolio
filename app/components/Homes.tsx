@@ -1,8 +1,10 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { RiDownload2Fill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { FiChevronDown } from "react-icons/fi";
 
 const firstNameLetters = ["J", "O", "S", "E", "F"];
 const lastNameLetters = ["S", "H", "O", "H", "E", "T"];
@@ -21,6 +23,14 @@ const NameLetter = ({ letter }: { letter: string }) => {
 };
 
 const Home = ({ id }: { id: string }) => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <div className="mb-20 scroll-mt-10" id={id}>
       <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent dark:from-[#2e3c4f] dark:via-[#2e3c4f]">
@@ -31,8 +41,8 @@ const Home = ({ id }: { id: string }) => {
         <div
           aria-hidden="true"
           className="flex justify-center ml-2 text-[30px] sm:text-4xl md:text-6xl mt-10 select-none">
-          {firstNameLetters.map((letter) => (
-            <NameLetter key={`first-${letter}`} letter={letter} />
+          {firstNameLetters.map((letter, idx) => (
+            <NameLetter key={`first-${letter}-${idx}`} letter={letter} />
           ))}
           &nbsp; &nbsp;
           {lastNameLetters.map((letter, idx) => (
@@ -44,9 +54,9 @@ const Home = ({ id }: { id: string }) => {
             Full-Stack Developer
           </h2>
           <p className="mx-auto mt-3 max-w-2xl px-4 text-center text-sm sm:text-base text-[#0c0d2e]/80 dark:text-white/80">
-            Building React, Next.js, TypeScript, Node.js, Prisma, and PostgreSQL
-            products focused on operations, automation, and data-driven web
-            applications.
+            I build full-stack software that replaces manual work — automation
+            systems, data dashboards, and web products that keep real operations
+            running.
           </p>
         </div>
       </div>
@@ -54,10 +64,10 @@ const Home = ({ id }: { id: string }) => {
       <div className="flex flex-col justify-center mx-2 items-center mt-52 md:mt-60 ">
         <Image
           src="/img/headshot.jpg"
-          alt="Josef Shohet's face"
+          alt="Photo of Josef Shohet"
           width={580}
           height={580}
-          className="rounded-full mb-4"
+          className="rounded-full mb-4 w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72"
         />
         <div className=" border-2 rounded-[.65rem] border-solid dark:bg-white/80 border-black/80 hover:border-orange-500">
           <a
@@ -87,6 +97,12 @@ const Home = ({ id }: { id: string }) => {
             />
           </a>
         </div>
+        <a
+          href="#about"
+          aria-label="Scroll to about"
+          className={`mt-6 flex justify-center text-black/40 dark:text-white/40 hover:text-orange-400 dark:hover:text-orange-400 transition-all duration-500 ${scrolled ? "opacity-0 pointer-events-none" : "opacity-100"}`}>
+          <FiChevronDown size={28} className="animate-bounce" />
+        </a>
       </div>
     </div>
   );
