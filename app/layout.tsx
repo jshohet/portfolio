@@ -36,7 +36,7 @@ const structuredData = {
       name: "Josef Shohet Portfolio",
       url: baseUrl,
       description:
-        "Portfolio of Josef Shohet, a full-stack developer building modern web products, automation systems, and data-driven applications.",
+        "Josef Shohet builds automation systems, data tools, and web products with React, Next.js, TypeScript, and PostgreSQL.",
       author: {
         "@type": "Person",
         name: "Josef Shohet",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     template: "%s | Josef Shohet",
   },
   description:
-    "Portfolio of Josef Shohet, a full-stack developer building modern web products with React, Next.js, TypeScript, Prisma, and PostgreSQL.",
+    "Josef Shohet is a full-stack developer who builds automation systems, data dashboards, and web products with React, Next.js, TypeScript, and PostgreSQL.",
   keywords: [
     "Josef Shohet",
     "full-stack developer",
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Josef Shohet | Full-Stack Developer",
     description:
-      "Explore full-stack projects by Josef Shohet, including product, automation, and content-platform work built with modern web technologies.",
+      "Full-stack projects by Josef Shohet: automation systems, retail dashboards, and publishing tools built with React, Next.js, and TypeScript.",
     url: "https://josef-shohet-portfolio.vercel.app/",
     siteName: "Josef Shohet Portfolio",
     images: [
@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Josef Shohet | Full-Stack Developer",
     description:
-      "Portfolio of Josef Shohet featuring full-stack products built with React, Next.js, TypeScript, Prisma, and PostgreSQL.",
+      "Josef Shohet builds automation systems, retail dashboards, and web products with React, Next.js, TypeScript, and PostgreSQL.",
     images: ["/img/headshot.jpg"],
   },
   category: "technology",

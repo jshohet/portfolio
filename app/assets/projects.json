@@ -1,11 +1,11 @@
 [
   {
     "name": "PetSaver",
-    "tagline": "Pet Care Infrastructure Platform",
-    "problem": "Pet care is fragmented—medication tracking and provider search happen across completely separate tools.",
-    "solution": "Full-stack platform that centralizes medication management and service discovery in one place.",
+    "tagline": "Pet care app for medication tracking and provider search",
+    "problem": "Pet owners juggle medication schedules and vet searches across apps that don't talk to each other.",
+    "solution": "A single platform for managing pet health records, tracking medications, and finding nearby care providers.",
     "impact": [
-      "One platform for pet health records, care tracking, and finding trusted providers"
+      "Pet health records, medication tracking, and provider search in one place"
     ],
     "techStack": [
       "React",
@@ -33,12 +33,12 @@
   },
   {
     "name": "Business Dashboard",
-    "tagline": "Retail Intelligence Platform",
-    "problem": "Retail teams track sales, staffing, and operations across disconnected spreadsheets.",
-    "solution": "Dashboard that consolidates sales performance, staff scheduling, and operations data for faster decisions.",
+    "tagline": "Retail operations dashboard for sales and staffing",
+    "problem": "Retail managers track sales, staffing, and operations across separate spreadsheets that don't connect.",
+    "solution": "A dashboard that puts sales performance, staff schedules, and operations data in one place.",
     "impact": [
-      "Single view of sales and staffing performance",
-      "Replaced manual spreadsheet workflows"
+      "One view of sales and staffing across locations",
+      "Replaced manual spreadsheet workflows with live data"
     ],
     "techStack": [
       "TypeScript",
@@ -71,11 +71,11 @@
   },
   {
     "name": "Amblog",
-    "tagline": "Modern Publishing Platform",
-    "problem": "Most blogging platforms are either too bare or too bloated for efficient content publishing.",
-    "solution": "Full-stack publishing platform with dynamic routing, content management, and SEO-optimized rendering.",
+    "tagline": "Full-stack blogging platform",
+    "problem": "Blogging platforms are either too stripped-down or too bloated. Getting content online shouldn't take this much setup.",
+    "solution": "A publishing platform with dynamic routing, a content editor, and server-rendered pages built for SEO.",
     "impact": [
-      "Clean read/write experience built for performance and scale"
+      "Fast, clean read and write experience that scales without fighting the platform"
     ],
     "techStack": [
       "Next.js",
@@ -103,12 +103,12 @@
   },
   {
     "name": "Chou Bot",
-    "tagline": "Automation Systems for Online Communities",
-    "problem": "Manual moderation and role management is time-consuming and inconsistent.",
-    "solution": "Scalable automation for moderation, logging, and community engagement.",
+    "tagline": "Discord bot for server moderation and automation",
+    "problem": "Manually moderating Discord servers and assigning roles doesn't scale. One busy day and things fall apart.",
+    "solution": "A bot that handles moderation, role assignment, activity logging, and community events automatically.",
     "impact": [
-      "Reduced manual moderation work by 90%",
-      "Automated role assignment, logging, and user engagement"
+      "Cut manual moderation time by 90%",
+      "Roles, logs, and community events run without any admin input"
     ],
     "techStack": ["Node.js", "MongoDB", "Discord API"],
     "demoPicSrc": "/img/choubot.png",

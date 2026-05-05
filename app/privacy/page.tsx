@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Notice",
   description:
-    "Privacy notice for Josef Shohet's portfolio website, including Google Analytics usage and contact information.",
+    "Privacy notice for Josef Shohet's portfolio — covers analytics, contact data, and third-party links.",
 };
 
 const PrivacyPage = () => {
@@ -14,26 +14,23 @@ const PrivacyPage = () => {
       </h1>
       <div className="space-y-4 leading-7">
         <p>
-          This portfolio collects limited technical and usage information needed
-          to understand general site traffic and keep the website operating.
+          This portfolio collects limited technical data to understand site
+          traffic and keep things running.
         </p>
         <p>
-          Google Analytics is used on this site to measure visitor traffic and
-          general page activity. This information is used only to understand how
-          the portfolio is being viewed. This site does not sell personal
-          information.
+          Google Analytics is active on this site. It tracks general visitor
+          and page activity. That data is not sold or shared beyond what
+          Google Analytics requires to function.
         </p>
         <p>
-          If you contact Josef Shohet directly by email, any information you
-          provide is used only to respond to your inquiry or discuss relevant
-          opportunities.
+          If you reach out by email, your message is used only to respond to
+          you or discuss relevant opportunities.
         </p>
         <p>
-          Third-party platforms linked from this portfolio, including GitHub,
-          LinkedIn, and deployed project demos, operate under their own privacy
-          policies.
+          External links to GitHub, LinkedIn, and project demos point to
+          platforms with their own privacy policies.
         </p>
-        <p>For privacy-related questions, contact joe.shohet@gmail.com.</p>
+        <p>Privacy questions? Email joe.shohet@gmail.com.</p>
       </div>
     </main>
   );

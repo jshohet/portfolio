@@ -73,7 +73,7 @@ const Contact = ({ id }: { id: string }) => {
               value={message}
               required
               className="appearance-none block w-full bg-gray-200 resize-none text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white h-32"
-              placeholder="Hi, I'd love to hire you!"
+              placeholder="Tell me what you're working on."
             />
           </div>
           <div className="mb-3 mt-5">

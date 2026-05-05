@@ -35,8 +35,8 @@ const Home = ({ id }: { id: string }) => {
     <div className="mb-20 scroll-mt-10" id={id}>
       <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent dark:from-[#2e3c4f] dark:via-[#2e3c4f]">
         <h1 className="sr-only">
-          Josef Shohet - Full-Stack Developer building Next.js, React,
-          TypeScript, Prisma, and PostgreSQL applications
+          Josef Shohet, full-stack developer. Builds automation systems,
+          dashboards, and web applications with React, Next.js, TypeScript, and PostgreSQL.
         </h1>
         <div
           aria-hidden="true"
@@ -54,9 +54,8 @@ const Home = ({ id }: { id: string }) => {
             Full-Stack Developer
           </h2>
           <p className="mx-auto mt-3 max-w-2xl px-4 text-center text-sm sm:text-base text-[#0c0d2e]/80 dark:text-white/80">
-            I build full-stack software that replaces manual work — automation
-            systems, data dashboards, and web products that keep real operations
-            running.
+            I build software that replaces manual work: automation systems,
+            data dashboards, and web products that real operations depend on.
           </p>
         </div>
       </div>
