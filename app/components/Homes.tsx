@@ -15,7 +15,7 @@ const NameLetter = ({ letter }: { letter: string }) => {
       <div className="transition-all transform translate-y-[57%] md:translate-y-[40%] z-10 ease-out duration-300 group-hover:translate-y-[-5%] group-active:translate-y-[-5%]">
         {letter}
       </div>
-      <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-gradient-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
+      <div className="transition-all transform scale-y-[-1] z-[9.9] group-hover:opacity-0 ease-in duration-200  bg-clip-text text-transparent bg-linear-to-b from-transparent to-[#abaaaa]  group-hover:translate-y-[10%]">
         {letter}
       </div>
     </div>
@@ -32,8 +32,8 @@ const Home = ({ id }: { id: string }) => {
   }, []);
 
   return (
-    <div className="mb-20 scroll-mt-10" id={id}>
-      <div className="absolute top-20 w-full z-100 bg-gradient-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent dark:from-[#2e3c4f] dark:via-[#2e3c4f]">
+    <div className="relative mb-20 scroll-mt-10" id={id}>
+      <div className="relative w-full z-10 bg-linear-to-b from-[#e1e4e5] via-[#e1e4e5] to-transparent dark:from-[#2e3c4f] dark:via-[#2e3c4f] pt-5 pb-8">
         <h1 className="sr-only">
           Josef Shohet, full-stack developer. Builds automation systems,
           dashboards, and web applications with React, Next.js, TypeScript, and PostgreSQL.
@@ -60,13 +60,14 @@ const Home = ({ id }: { id: string }) => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center mx-2 items-center mt-52 md:mt-60 ">
+      <div className="flex flex-col justify-center mx-2 items-center mt-2 md:mt-5">
         <Image
           src="/img/headshot.jpg"
           alt="Photo of Josef Shohet"
-          width={580}
-          height={580}
-          className="rounded-full mb-4 w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72"
+          width={640}
+          height={640}
+          className="rounded-full mb-4 w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 object-cover"
+          style={{ objectFit: "cover" }}
         />
         <div className=" border-2 rounded-[.65rem] border-solid dark:bg-white/80 border-black/80 hover:border-orange-500">
           <a
